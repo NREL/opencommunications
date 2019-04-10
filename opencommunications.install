@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Install, update and uninstall hooks for the communications subprofile.
+ * Install, update and uninstall hooks for the opencommunications subprofile.
  */
 
 use Drupal\Core\Entity\Entity\EntityViewDisplay;
@@ -13,10 +13,9 @@ use Drupal\user\RoleInterface;
 /**
  * Implements hook_install().
  */
-function communications_install() {
+function opencommunications_install() {
     // Can add code in here to make nodes, terms, etc.
   $modules = [
-    'communications_person'
   ];
 
   foreach ($modules as $module) {
@@ -56,9 +55,8 @@ function communications_install() {
 
 
 /**
- * Uninstall communications_media_entity_image Module.
+ * Uninstall opencommunications_media_entity_image Module.
  */
-function communications_update_8001() {
-  // Uninstall the Media Demo Content module.
-  \Drupal::service('module_installer')->uninstall(['communications_media_entity_image']);
+function opencommunications_update_8001() {
+
 }

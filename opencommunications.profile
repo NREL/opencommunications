@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Enables modules and site configuration for the communications profile.
+ * Enables modules and site configuration for the opencommunications profile.
  */
 
 // Add any custom code here, like hook implementations.
@@ -15,7 +15,7 @@ use Drupal\Core\Form\FormStateInterface;
  *
  * Allows the profile to alter the site configuration form.
  */
-function communications_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
+function opencommunications_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
   // Account information defaults
   $form['admin_account']['account']['name']['#default_value'] = 'drupaladmin';
   $form['admin_account']['account']['mail']['#default_value'] = 'drupaladmin@nrel.gov';
@@ -29,7 +29,7 @@ function communications_form_install_configure_form_alter(&$form, FormStateInter
 /**
  * Implements hook_form_alter().
  */
-function communications_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+function opencommunications_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
   // if ($form_id == 'user_login_form') {
   //   // Remove regular login button
   //   unset($form['actions']['submit']);
