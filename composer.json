@@ -1,0 +1,204 @@
+{
+    "name": "nrel/opencommunications",
+    "description": "Open Communications profile is Aquia Lightning sub-distribution for NREL/DOE Drupal 8 sites.",
+    "type": "drupal-profile",
+    "homepage": "https://github.com/NREL/opencommunications",
+    "authors": [
+        {
+            "name": "Damon Haley (dhaley)",
+            "email": "damon.haley@nrel.gov",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Shaun Laws (slaws)",
+            "email": "shaun.laws@nrel.gov",
+            "role": "Co-maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/NREL/opencommunications/issues"
+    },
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "behat/mink-zombie-driver": "^1.4",
+        "drupal/stage_file_proxy": "^1.0@alpha",
+        "drupal/twig_vardumper": "^1.1",
+        "drupal/twig_xdebug": "^1.0",
+        "drupal/vardumper": "^1.4",
+        "drush/config-extra": "^1.0",
+        "pear/console_color2": "^0.1.2"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "dev": {
+            "type": "github",
+            "url": "https://github.com/acquia/lightning-dev",
+            "no-api": true
+        }
+    },
+    "config": {
+        "preferred-install": {
+            "drupal/core": "dist"
+        },
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0.8"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-8.x-3.x": "3.x-dev"
+        },
+        "enable-patching": true,
+        "installer-paths": {
+            "docroot/core": [
+                "type:drupal-core"
+            ],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "docroot/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "docroot/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "docroot/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ]
+        },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
+        "patchLevel": {
+            "drupal/core": "-p2"
+        }
+    },
+  "patches": {
+      "drupal/schemata": {
+        "TypeError in schemata_json_schema when webprofiler module is enabled": "https://www.drupal.org/files/issues/fixed_type_error_about_entity_manager_interface.patch"
+      },
+      "drupal/address": {
+          "https://www.drupal.org/project/address/issues/2514126": "https://www.drupal.org/files/issues/2514126-146.field-behavior-settings.patch"
+      },
+      "drupal/ctools": {
+          "https://www.drupal.org/project/ctools/issues/2936263": "https://www.drupal.org/files/issues/2018-08-13/tempstore-2936263-14.patch"
+      },
+      "drupal/core" : {
+                "PrivateTempStore->getOwner Attempts to access possibly unset Request Session" :
+                "https://www.drupal.org/files/issues/2018-06-01/2860341-12.patch",
+                "Views does not create parent local task for a default local task" :
+                "https://www.drupal.org/files/issues/2804195-34.patch"
+      },
+      "simplesamlphp/simplesamlphp": {
+                "https://github.com/simplesamlphp/simplesamlphp/issues/771" :
+                "./patches/jaimeperez.patch"
+      },
+    "drupal/bootstrap": {
+      "https://www.drupal.org/project/bootstrap/issues/3027569#comment-12940312":
+      "https://www.drupal.org/files/issues/2019-01-24/3027569-8.x-3.x-8.patch"
+    }
+  },
+  "require": {
+        "acquia/lightning": "~3.2.7",
+        "aws/aws-sdk-php": "~3.0",
+        "bower-asset/highlightjs": "^9.12",
+        "bower-asset/imagesloaded": "^4.1",
+        "bower-asset/masonry": "^4.2",
+        "drupal/address": "~1.0",
+        "drupal/admin_toolbar": "~1.20",
+        "drupal/advagg": "~3.5",
+        "drupal/auto_entitylabel": "^2.0@beta",
+        "drupal/better_normalizers": "^1.0@beta",
+        "drupal/big_pipe_demo": "^1.2",
+        "drupal/block_styles": "^1.2",
+        "drupal/bootbase": "^1.15",
+        "drupal/bootstrap": "~3.13",
+        "drupal/bootstrap_barrio": "^4.22",
+        "drupal/bootstrap_layouts": "^5.1",
+        "drupal/bootstrap_sass": "^1.9",
+        "drupal/captcha": "^1.0@beta",
+        "drupal/coffee": "~1.0@beta",
+        "drupal/colorapi": "^1.0",
+        "drupal/communications_showme": "dev-master",
+        "drupal/config_pages": "~2.2",
+        "drupal/contact_emails": "~1.15",
+        "drupal/contribute": "~1.0-beta7",
+        "drupal/csv_serialization": "^1.4",
+        "drupal/eck": "~1.0@alpha",
+        "drupal/editor_advanced_link": "^1.4",
+        "drupal/editor_file": "^1.2",
+        "drupal/entityqueue": "^1.0@alpha",
+        "drupal/fast_404": "^1.0@alpha",
+        "drupal/features": "^3.8",
+        "drupal/field_formatter": "^1.2",
+        "drupal/field_formatter_class": "^1.1",
+        "drupal/field_group": "1.x-dev",
+        "drupal/google_tag": "~1.1",
+        "drupal/group": "^1.0@RC",
+        "drupal/honeypot": "^1.29",
+        "drupal/hsts": "^1.0",
+        "drupal/image_effects": "^2.0",
+        "drupal/imagemagick": "~2.1",
+        "drupal/imagick": "^1.2",
+        "drupal/jquery_colorpicker": "^2.0",
+        "drupal/linkit": "^4.3",
+        "drupal/linkit_media_file_direct": "1.x-dev",
+        "drupal/memcache": "^2.0@alpha",
+        "drupal/menu_link_weight": "~1.0@beta",
+        "drupal/menu_trail_by_path": "^1.1",
+        "drupal/monolog": "^1.0",
+        "drupal/multiversion": "^1.0@beta",
+        "drupal/noopener_filter": "~1.0",
+        "drupal/parallax_bg": "~1.0",
+        "drupal/password_policy": "^3.0@alpha",
+        "drupal/permissions_by_term": "^1.61",
+        "drupal/rabbit_hole": "^1.0-beta4",
+        "drupal/realistic_dummy_content": "^2.0",
+        "drupal/recaptcha": "^2.3",
+        "drupal/recreate_block_content": "^2.0",
+        "drupal/relaxed": "^1.0@beta",
+        "drupal/restui": "^1.16",
+        "drupal/riddler": "^1.1",
+        "drupal/rules": "^3.0@alpha",
+        "drupal/schema_metatag": "^1.3",
+        "drupal/ses_mailer": "^1.0@alpha",
+        "drupal/simple_sitemap": "3.1",
+        "drupal/simplesamlphp_auth": "^3.0",
+        "drupal/skinr": "^2.0",
+        "drupal/textimage": "^3.0",
+        "drupal/url_embed": "^1.0@alpha",
+        "drupal/views_bulk_edit": "^2.2",
+        "drupal/views_bulk_operations": "^2.4",
+        "drupal/views_data_export": "^1.0@alpha",
+        "drupal/x_frame_options": "^1.1",
+        "drupal/xls_serialization": "~1.0",
+        "elasticsearch/elasticsearch": "^5.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "jsq/amazon-es-php": "^0.2.0",
+        "lsolesen/pel": "^0.9.6",
+        "monolog/monolog": "^1.23",
+        "nodespark/des-connector": "5.x-dev",
+        "nrel/nrel_bootstrap": "~2.0.0",
+        "nrel/eere_app_bootstrap": "dev-master",
+        "phenx/php-font-lib": "^0.5.0",
+        "phpoffice/phpspreadsheet": "^1.1.0",
+        "simplesamlphp/simplesamlphp": "^1.14",
+        "twbs/bootstrap": "^3.3.7"
+    },
+     "conflict": {
+        "drupal/drupal": "*"
+    }
+}

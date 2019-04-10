@@ -1,0 +1,64 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall hooks for the communications subprofile.
+ */
+
+use Drupal\Core\Entity\Entity\EntityViewDisplay;
+use Drupal\field\Entity\FieldConfig;
+use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+function communications_install() {
+    // Can add code in here to make nodes, terms, etc.
+  $modules = [
+    'communications_person'
+  ];
+
+  foreach ($modules as $module) {
+    \Drupal::service('module_installer')->install([$module]);
+  }
+
+  $stinky_modules = [
+    'stark',
+    'bartik',
+  ];
+
+  foreach ($stinky_modules as $module) {
+    \Drupal::service('module_installer')->uninstall([$module]);
+  }
+
+  // Set the default and admin theme.
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('default', 'nrel_bootstrap')
+    ->set('admin', 'seven')
+    ->save(TRUE);
+
+  // Enable the admin theme.
+  \Drupal::configFactory()
+    ->getEditable('node.settings')
+    ->set('use_admin_theme', TRUE)
+    ->save(TRUE);
+
+  // Assign user 1 the "developer" role.
+  $user = User::load(1);
+  $user->roles[] = 'developer';
+  $user->save();
+
+  // Create accounts for The Developer team.
+
+}
+
+
+/**
+ * Uninstall communications_media_entity_image Module.
+ */
+function communications_update_8001() {
+  // Uninstall the Media Demo Content module.
+  \Drupal::service('module_installer')->uninstall(['communications_media_entity_image']);
+}

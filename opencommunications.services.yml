@@ -1,0 +1,4 @@
+services:
+  communications.taxonomy_term_create:
+    class: '\Drupal\communications\TaxonomyTermCreate'
+    arguments: []

@@ -1,0 +1,27 @@
+name: 'communications'
+core: '8.x'
+type: profile
+base profile: lightning
+description: 'Communications lightning subprofile'
+# Optional: Declare your installation profile as a distribution
+# This will make the installer auto-select this installation profile.
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
+distribution:
+  name: Communications
+# Required modules
+themes:
+  - nrel_bootstrap
+install:
+    - syslog
+    - features_ui
+    - admin_toolbar
+    - bootstrap_layouts
+    - linkit
+    - big_pipe
+    - field_group
+    - field_formatter_class
+    - imagemagick
+    - image_effects
+    - jquery_colorpicker
+version: '8.x-2.26'
