@@ -132,7 +132,6 @@
         "drupal/captcha": "^1.0@beta",
         "drupal/coffee": "~1.0@beta",
         "drupal/colorapi": "^1.0",
-        "drupal/communications_showme": "dev-master",
         "drupal/config_pages": "~2.2",
         "drupal/contact_emails": "~1.15",
         "drupal/contribute": "~1.0-beta7",
