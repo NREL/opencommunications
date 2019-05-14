@@ -112,7 +112,7 @@
     }
   },
   "require": {
-        "acquia/lightning": "~3.2.7",
+        "acquia/lightning": "~3.3.1",
         "aws/aws-sdk-php": "~3.0",
         "bower-asset/highlightjs": "^9.12",
         "bower-asset/imagesloaded": "^4.1",
@@ -190,8 +190,8 @@
         "lsolesen/pel": "^0.9.6",
         "monolog/monolog": "^1.23",
         "nodespark/des-connector": "5.x-dev",
-        "nrel/nrel_bootstrap": "~2.0.0",
         "nrel/eere_app_bootstrap": "dev-master",
+        "nrel/nrel_bootstrap": "~2.0.0",
         "phenx/php-font-lib": "^0.5.0",
         "phpoffice/phpspreadsheet": "^1.1.0",
         "simplesamlphp/simplesamlphp": "^1.14",
