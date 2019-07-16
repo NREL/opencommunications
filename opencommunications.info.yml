@@ -13,15 +13,35 @@ distribution:
 themes:
   - nrel_bootstrap
 install:
-    - syslog
-    - features_ui
+    - address
     - admin_toolbar
-    - bootstrap_layouts
-    - linkit
+    - admin_toolbar_links_access_filter
+    - admin_toolbar_tools
+    - advagg
+    - advagg_css_minify
+    - advagg_js_minify
+    - advagg_mod
     - big_pipe
-    - field_group
-    - field_formatter_class
-    - imagemagick
+    - bootstrap_layouts
+    - contribute
+    - google_tag
+    - honeypot
+    - hsts
     - image_effects
+    - imagemagick
     - jquery_colorpicker
-version: '8.x-2.26'
+    - memcache
+    - memcache_admin
+    - page_cache
+    - password_policy
+    - password_policy_character_types
+    - password_policy_characters
+    - password_policy_history
+    - password_policy_length
+    - password_policy_username
+    - ses_mailer
+    - simple_oauth
+    - simple_oauth_extras
+    - syslog
+    - telephone
+version: '8.x-2.27'
