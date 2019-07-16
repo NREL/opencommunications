@@ -24,6 +24,7 @@ install:
     - big_pipe
     - bootstrap_layouts
     - contribute
+    - dynamic_page_cache
     - google_tag
     - honeypot
     - hsts
