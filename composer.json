@@ -96,12 +96,14 @@
       "drupal/ctools": {
           "https://www.drupal.org/project/ctools/issues/2936263": "https://www.drupal.org/files/issues/2018-08-13/tempstore-2936263-14.patch"
       },
-      "drupal/core" : {
-                "PrivateTempStore->getOwner Attempts to access possibly unset Request Session" :
-                "https://www.drupal.org/files/issues/2018-06-01/2860341-12.patch",
-                "Views does not create parent local task for a default local task" :
-                "https://www.drupal.org/files/issues/2804195-34.patch"
-      },
+    "drupal/core" : {
+      "PrivateTempStore->getOwner Attempts to access possibly unset Request Session" :
+      "https://www.drupal.org/files/issues/2018-06-01/2860341-12.patch",
+      "Views does not create parent local task for a default local task" :
+      "https://www.drupal.org/files/issues/2804195-34.patch",
+      "https://www.drupal.org/project/drupal/issues/2716115#comment-13164678":
+      "https://www.drupal.org/files/issues/2019-06-28/2716115-39.patch"
+    },
       "simplesamlphp/simplesamlphp": {
                 "https://github.com/simplesamlphp/simplesamlphp/issues/771" :
                 "./patches/jaimeperez.patch"
