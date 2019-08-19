@@ -63,12 +63,11 @@ function opencommunications_update_8001() {
 
 
 /**
-  + * Install upgrade_status & advanced_pwa
+  + * Install upgrade_status
   + */
 function opencommunications_update_8002() {
     $module_list = array(
-        'advanced_pwa',
-        'upgrade_status',
+        'upgrade_status'
     );
     \Drupal::service('module_installer')->install($module_list);
 }
