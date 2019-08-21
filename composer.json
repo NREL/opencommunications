@@ -111,6 +111,10 @@
     "drupal/bootstrap": {
       "https://www.drupal.org/project/bootstrap/issues/3027569#comment-12940312":
       "https://www.drupal.org/files/issues/2019-01-24/3027569-8.x-3.x-8.patch"
+    },
+    "drupal/captcha": {
+      "https://www.drupal.org/project/captcha/issues/2899256":
+      "https://www.drupal.org/files/issues/cannot_login_to_site-2899256-3_0.patch"
     }
   },
   "require": {
