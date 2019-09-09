@@ -3,7 +3,7 @@ css:
   combine_media: true
   fix_type: true
   preserve_external: false
-dns_prefetch: false
+dns_prefetch: true
 path:
   convert:
     absolute_to_protocol_relative: true

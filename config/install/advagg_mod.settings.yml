@@ -10,7 +10,7 @@ js_adjust_sort_browsers: true
 js_adjust_sort_external: true
 js_async: false
 js_async_in_header: false
-js_defer: 0
+js_defer: 2
 js_preprocess: true
 prefetch: null
 ga_inline_to_file: null
