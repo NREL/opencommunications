@@ -23,12 +23,15 @@ install:
     - advagg_mod
     - big_pipe
     - bootstrap_layouts
+    - captcha
     - contribute
     - dynamic_page_cache
+    - fast404
     - google_tag
     - honeypot
     - hsts
     - image_effects
+    - image_captcha
     - imagemagick
     - jquery_colorpicker
     - memcache
@@ -45,4 +48,5 @@ install:
     - simple_oauth_extras
     - syslog
     - telephone
+    - upgrade_status
 version: '8.x-2.27'
