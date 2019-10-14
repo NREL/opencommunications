@@ -108,10 +108,6 @@
                 "https://github.com/simplesamlphp/simplesamlphp/issues/771" :
                 "./patches/jaimeperez.patch"
       },
-    "drupal/bootstrap": {
-      "https://www.drupal.org/project/bootstrap/issues/3027569#comment-12940312":
-      "https://www.drupal.org/files/issues/2019-01-24/3027569-8.x-3.x-8.patch"
-    },
     "drupal/captcha": {
       "https://www.drupal.org/project/captcha/issues/2899256":
       "https://www.drupal.org/files/issues/cannot_login_to_site-2899256-3_0.patch"
@@ -126,20 +122,16 @@
         "drupal/address": "~1.0",
         "drupal/admin_toolbar": "~1.20",
         "drupal/advagg": "^4.0",
-	      "drupal/advanced_pwa": "1.1.0",
+        "drupal/advanced_pwa": "1.1.0",
         "drupal/auto_entitylabel": "^2.0@beta",
         "drupal/better_normalizers": "^1.0@beta",
         "drupal/big_pipe_demo": "^1.2",
         "drupal/block_styles": "^1.2",
-        "drupal/bootbase": "^1.15",
-        "drupal/bootstrap": "~3.13",
-        "drupal/bootstrap_barrio": "^4.22",
-        "drupal/bootstrap_layouts": "^5.1",
-        "drupal/bootstrap_sass": "^1.9",
         "drupal/captcha": "^1.0@beta",
         "drupal/coffee": "~1.0@beta",
         "drupal/colorapi": "^1.0",
         "drupal/config_pages": "~2.2",
+        "drupal/config_split": "~1.4",
         "drupal/console": "~1.6",
         "drupal/contact_emails": "~1.15",
         "drupal/contribute": "~1.0-beta7",
@@ -199,12 +191,9 @@
         "lsolesen/pel": "^0.9.6",
         "monolog/monolog": "^1.23",
         "nodespark/des-connector": "5.x-dev",
-        "nrel/eere_app_bootstrap": "dev-master",
-        "nrel/nrel_bootstrap": "~2.0.0",
         "phenx/php-font-lib": "^0.5.0",
         "phpoffice/phpspreadsheet": "^1.1.0",
         "simplesamlphp/simplesamlphp": "^1.14",
-        "twbs/bootstrap": "^3.3.7",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
      "conflict": {
