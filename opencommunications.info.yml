@@ -25,7 +25,6 @@ install:
     - bootstrap_layouts
     - contribute
     - dynamic_page_cache
-    - fast404
     - google_tag
     - hsts
     - image_effects
