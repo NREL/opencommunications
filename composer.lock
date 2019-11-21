@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71de2cdb6955be99abc4914f4bad5d43",
+    "content-hash": "c2da73ab7b12769a6e7e2ee602cc8c1a",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -2175,7 +2175,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.0",
-                    "datestamp": "1560358534",
+                    "datestamp": "1560196323",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2344,10 +2344,6 @@
                 {
                     "name": "bforchhammer",
                     "homepage": "https://www.drupal.org/user/216396"
-                },
-                {
-                    "name": "colan",
-                    "homepage": "https://www.drupal.org/user/58704"
                 },
                 {
                     "name": "diqidoq",
@@ -3505,7 +3501,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.9",
-                    "datestamp": "1574140673",
+                    "datestamp": "1549832280",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4008,10 +4004,6 @@
                     "homepage": "https://www.drupal.org/user/3260690"
                 },
                 {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
-                },
-                {
                     "name": "slashrsm",
                     "homepage": "https://www.drupal.org/user/744628"
                 },
@@ -4310,10 +4302,6 @@
                 {
                     "name": "miro_dietiker",
                     "homepage": "https://www.drupal.org/user/227761"
-                },
-                {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
                 },
                 {
                     "name": "realityloop",
@@ -5495,7 +5483,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1573067711",
+                    "datestamp": "1567174084",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7201,7 +7189,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-alpha2",
-                    "datestamp": "1569420787",
+                    "datestamp": "1537264380",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -7265,7 +7253,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-alpha3",
-                    "datestamp": "1569489784",
+                    "datestamp": "1552577885",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -7869,10 +7857,6 @@
             ],
             "authors": [
                 {
-                    "name": "e0ipso",
-                    "homepage": "https://www.drupal.org/user/550110"
-                },
-                {
                     "name": "mrjmd",
                     "homepage": "https://www.drupal.org/user/1800446"
                 },
@@ -8176,10 +8160,6 @@
                 {
                     "name": "See other contributors",
                     "homepage": "https://www.drupal.org/node/1072922/committers"
-                },
-                {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
                 },
                 {
                     "name": "tim.plunkett",
@@ -8576,10 +8556,6 @@
                 {
                     "name": "SaschaHannes",
                     "homepage": "https://www.drupal.org/user/3536189"
-                },
-                {
-                    "name": "marcoliver",
-                    "homepage": "https://www.drupal.org/user/1529744"
                 }
             ],
             "description": "Restricts access to nodes by taxonomy terms in relation to users and their roles.",
@@ -9509,7 +9485,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1559917500",
+                    "datestamp": "1549962207",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9778,7 +9754,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.1",
-                    "datestamp": "1559004185",
+                    "datestamp": "1552174425",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -11127,9 +11103,9 @@
             "authors": [
                 {
                     "name": "Friedrich Große",
+                    "role": "Author",
                     "email": "friedrich.grosse@gmail.com",
-                    "homepage": "https://github.com/FGrosse",
-                    "role": "Author"
+                    "homepage": "https://github.com/FGrosse"
                 },
                 {
                     "name": "All contributors",
@@ -17792,10 +17768,6 @@
                     "homepage": "https://www.drupal.org/node/3236/committers"
                 },
                 {
-                    "name": "pcambra",
-                    "homepage": "https://www.drupal.org/user/122101"
-                },
-                {
                     "name": "salvis",
                     "homepage": "https://www.drupal.org/user/82964"
                 },
@@ -19171,18 +19143,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -19218,18 +19190,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library for handling version information and constraints",
@@ -19521,8 +19493,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -19569,8 +19541,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "FilterIterator implementation that filters files based on a list of suffixes.",
@@ -19611,8 +19583,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Simple template engine.",
@@ -19660,8 +19632,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "Utility class for timing",
@@ -19791,8 +19763,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
@@ -20415,8 +20387,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
@@ -20456,8 +20428,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
@@ -20585,7 +20557,6 @@
     "stability-flags": {
         "drupal/auto_entitylabel": 10,
         "drupal/better_normalizers": 10,
-        "drupal/captcha": 10,
         "drupal/coffee": 10,
         "drupal/eck": 15,
         "drupal/entityqueue": 15,

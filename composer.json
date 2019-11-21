@@ -122,7 +122,7 @@
         "drupal/auto_entitylabel": "^2.0@beta",
         "drupal/better_normalizers": "^1.0@beta",
         "drupal/block_styles": "^1.2",
-        "drupal/captcha": "^1.0@beta",
+        "drupal/recaptcha": "^2.4",
         "drupal/coffee": "~1.0@beta",
         "drupal/colorapi": "^1.0",
         "drupal/config_pages": "~2.2",
