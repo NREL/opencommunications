@@ -45,4 +45,4 @@ install:
     - simple_oauth_extras
     - syslog
     - telephone
-version: '8.x-2.27'
+version: '8.x-2.28'
