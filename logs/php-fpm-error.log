@@ -1,0 +1,14 @@
+[16-Dec-2019 21:21:35] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[16-Dec-2019 21:21:35] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[16-Dec-2019 21:21:35] NOTICE: fpm is running, pid 893
+[16-Dec-2019 21:21:35] NOTICE: ready to handle connections
+[16-Dec-2019 21:21:35] NOTICE: systemd monitor disabled
+[16-Dec-2019 21:21:35] NOTICE: Finishing ...
+[16-Dec-2019 21:21:35] NOTICE: exiting, bye-bye!
+[19-Dec-2019 06:36:39] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[19-Dec-2019 06:36:39] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[19-Dec-2019 06:36:39] NOTICE: fpm is running, pid 25816
+[19-Dec-2019 06:36:39] NOTICE: ready to handle connections
+[19-Dec-2019 06:36:39] NOTICE: systemd monitor disabled
+[19-Dec-2019 18:37:18] NOTICE: Finishing ...
+[19-Dec-2019 18:37:18] NOTICE: exiting, bye-bye!
