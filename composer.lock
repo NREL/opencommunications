@@ -5633,17 +5633,17 @@
         },
         {
             "name": "drupal/imagemagick",
-            "version": "2.6.0",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/imagemagick.git",
-                "reference": "8.x-2.6"
+                "reference": "8.x-2.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/imagemagick-8.x-2.6.zip",
-                "reference": "8.x-2.6",
-                "shasum": "1696ef42d06461f420ef7761bc4a5d2d3bf6ac67"
+                "url": "https://ftp.drupal.org/files/projects/imagemagick-8.x-2.7.zip",
+                "reference": "8.x-2.7",
+                "shasum": "e70fa0124305d99d5cf3f59d95c3e52657c1c8b4"
             },
             "require": {
                 "drupal/core": "^8.3",
@@ -5657,8 +5657,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.6",
-                    "datestamp": "1566506585",
+                    "version": "8.x-2.7",
+                    "datestamp": "1581425670",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
