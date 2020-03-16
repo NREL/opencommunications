@@ -128,6 +128,7 @@
         "drupal/console": "~1.6",
         "drupal/contact_emails": "~1.15",
         "drupal/contribute": "~1.0-beta8",
+        "drupal/core": "8.8.1",
         "drupal/csv_serialization": "^1.4",
         "drupal/eck": "~1.0@alpha",
         "drupal/editor_advanced_link": "^1.4",
