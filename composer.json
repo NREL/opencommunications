@@ -152,7 +152,7 @@
         "drupal/multiversion": "^1.0@beta",
         "drupal/noopener_filter": "~1.0",
         "drupal/parallax_bg": "~1.0",
-        "drupal/password_policy": "^3.0@alpha",
+        "drupal/password_policy": " ^3.0@beta",
         "drupal/permissions_by_term": "^1.61",
         "drupal/rabbit_hole": "~1.0-beta6",
         "drupal/realistic_dummy_content": "^2.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25c22e95657e9662ee1e406159230ccc",
+    "content-hash": "a51e2b4464a774d3acba21f05139397c",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -3851,10 +3851,10 @@
                     }
                 },
                 "patches_applied": {
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
                 }
             },
             "autoload": {
@@ -19851,7 +19851,8 @@
             "homepage": "https://www.drupal.org/project/git_deploy",
             "support": {
                 "source": "https://git.drupalcode.org/project/git_deploy"
-            }
+            },
+            "time": "2020-04-24T03:47:32+00:00"
         },
         {
             "name": "drupal/twig_vardumper",
@@ -22396,7 +22397,7 @@
         "drupal/group": 5,
         "drupal/menu_link_weight": 10,
         "drupal/multiversion": 10,
-        "drupal/password_policy": 15,
+        "drupal/password_policy": 10,
         "drupal/relaxed": 10,
         "drupal/rules": 15,
         "drupal/ses_mailer": 15,
