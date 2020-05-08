@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a51e2b4464a774d3acba21f05139397c",
+    "content-hash": "d70c8f692c5f65ff75f5d3e872be4ef3",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -22401,6 +22401,7 @@
         "drupal/relaxed": 10,
         "drupal/rules": 15,
         "drupal/ses_mailer": 15,
+        "drupal/stage_file_proxy": 10,
         "drupal/url_embed": 15,
         "drupal/views_data_export": 15,
         "nodespark/des-connector": 20
