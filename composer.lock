@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d70c8f692c5f65ff75f5d3e872be4ef3",
+    "content-hash": "644be2c23410051964f46e6fcb0090c3",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -2391,6 +2391,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "3109317 - Run tests against Drupal 9": "https://www.drupal.org/files/issues/2020-05-15/autosave_form-1.1-core-version-requirement.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3834,10 +3837,10 @@
                     }
                 },
                 "patches_applied": {
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
                 }
             },
             "autoload": {
@@ -7192,30 +7195,33 @@
         },
         {
             "name": "drupal/memcache",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/memcache.git",
-                "reference": "8.x-2.0"
+                "reference": "8.x-2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.0.zip",
-                "reference": "8.x-2.0",
-                "shasum": "78c09097c42781343f4069b4823dce7acd98a8b1"
+                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "f70fd9c5d5dda510d2b802dea887044eddf5278b"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0",
-                    "datestamp": "1540546681",
+                    "version": "8.x-2.1",
+                    "datestamp": "1590610774",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "branch-alias": {
+                    "dev-8.x-2.x": "2.x-dev"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8234,7 +8240,6 @@
                     }
                 },
                 "patches_applied": {
-                    "3030976 - Panels should check if there is an icon map before setting the no preview icon": "https://www.drupal.org/files/issues/2019-02-06/initial.patch",
                     "2878684 - Use String.match to correlate regions when switching Layouts in Panels IPE": "https://www.drupal.org/files/issues/panels-ipe-2878684-3.patch"
                 }
             },
@@ -19776,7 +19781,8 @@
             "homepage": "https://www.drupal.org/project/git_deploy",
             "support": {
                 "source": "https://git.drupalcode.org/project/git_deploy"
-            }
+            },
+            "time": "2020-05-24T13:04:11+00:00"
         },
         {
             "name": "drupal/twig_vardumper",
