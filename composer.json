@@ -145,6 +145,7 @@
         "drupal/imagick": "^1.2",
         "drupal/jquery_colorpicker": "^2.0",
         "drupal/linkit": "^4.3",
+        "drupal/log_stdout": "~1.0",
         "drupal/memcache": "^2.1",
         "drupal/menu_link_weight": "~1.0@beta",
         "drupal/menu_trail_by_path": "^1.1",
