@@ -81,34 +81,17 @@
             "bower-asset",
             "npm-asset"
         ],
+        "patches": {
+          "drupal/core": {
+            "https://www.drupal.org/project/drupal/issues/2804195 - Views does not create parent local task for a default local task":
+            "https://www.drupal.org/files/issues/2018-04-03/2804195-54.patch"
+          }
+        },
         "patchLevel": {
             "drupal/core": "-p2"
         }
     },
-  "patches": {
-      "drupal/schemata": {
-        "TypeError in schemata_json_schema when webprofiler module is enabled": "https://www.drupal.org/files/issues/fixed_type_error_about_entity_manager_interface.patch"
-      },
-      "drupal/address": {
-          "https://www.drupal.org/project/address/issues/2514126": "https://www.drupal.org/files/issues/2514126-146.field-behavior-settings.patch"
-      },
-      "drupal/ctools": {
-          "https://www.drupal.org/project/ctools/issues/2936263": "https://www.drupal.org/files/issues/2018-08-13/tempstore-2936263-14.patch"
-      },
-    "drupal/core" : {
-      "PrivateTempStore->getOwner Attempts to access possibly unset Request Session" :
-      "https://www.drupal.org/files/issues/2018-06-01/2860341-12.patch",
-      "Views does not create parent local task for a default local task" :
-      "https://www.drupal.org/files/issues/2804195-34.patch",
-      "https://www.drupal.org/project/drupal/issues/2716115#comment-13164678":
-      "https://www.drupal.org/files/issues/2019-06-28/2716115-39.patch"
-    },
-    "drupal/captcha": {
-      "https://www.drupal.org/project/captcha/issues/2899256":
-      "https://www.drupal.org/files/issues/cannot_login_to_site-2899256-3_0.patch"
-    }
-  },
-  "require": {
+    "require": {
         "acquia/lightning": "~4.1.9",
         "aws/aws-sdk-php": "~3.0",
         "bower-asset/highlightjs": "^9.12",
