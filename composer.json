@@ -136,7 +136,7 @@
         "drupal/parallax_bg": "~1.0",
         "drupal/password_policy": " ^3.0@beta",
         "drupal/permissions_by_term": "^1.61",
-        "drupal/rabbit_hole": "~1.0-beta6",
+        "drupal/rabbit_hole": "1.0.0-beta7",
         "drupal/realistic_dummy_content": "^2.0",
         "drupal/recaptcha": "^2.4",
         "drupal/recreate_block_content": "^2.0",
