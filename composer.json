@@ -101,7 +101,7 @@
         "drupal/admin_toolbar": "~2.0",
         "drupal/advagg": "^4.0",
         "drupal/advanced_pwa": "1.1.0",
-        "drupal/auto_entitylabel": "^2.0@beta",
+        "drupal/auto_entitylabel": "~3.0-beta",
         "drupal/better_normalizers": "^1.0@beta",
         "drupal/block_styles": "^1.2",
         "drupal/coffee": "~1.0@beta",
