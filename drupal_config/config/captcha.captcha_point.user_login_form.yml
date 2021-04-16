@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+formId: user_login_form
+captchaType: recaptcha/reCAPTCHA
+label: user_login_form

@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embedded
+    - field.field.media.audio_file.field_media_audio_file
+    - field.field.media.audio_file.field_show_in_media_library
+    - media.type.audio_file
+  module:
+    - file
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: media.audio_file.embedded
+targetEntityType: media
+bundle: audio_file
+mode: embedded
+content:
+  field_media_audio_file:
+    type: file_audio
+    label: visually_hidden
+    weight: 0
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_show_in_media_library: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,4 +1,0 @@
-access_token_expiration: 300
-refresh_token_expiration: 1209600
-private_key: sites/default/files/private/oauth/private.key
-public_key: sites/default/files/private/oauth/public.key

@@ -1,0 +1,97 @@
+{
+    "name": "nrel/new_project",
+    "description": "site_name site based on the nrel/opencommunications profile.",
+    "type": "project",
+    "homepage": "https://github.com/NREL/new_project",
+    "authors": [
+        {
+            "name": "Shaun Laws (slaws)",
+            "email": "shaun.laws@nrel.gov",
+            "role": "Co-maintainer"
+        },
+        {
+            "name": "Christian Modern (cmodern)",
+            "email": "christian.modern@nrel.gov",
+            "role": "Co-maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/NREL/new_project/issues"
+    },
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "drush/config-extra": "1.0.1"
+    },
+    "require": {
+        "php": ">=7.3",
+        "nrel/opencommunications": "dev-master"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/",
+        "discard-changes": true,
+        "preferred-install": {
+            "drupal/core": "dist"
+        },
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "extra": {
+        "composer-exit-on-patch-failure": true,
+        "drupal-scaffold": {
+            "allowed-packages": [
+                "nrel/opencommunications"
+            ],
+            "locations": {
+                "web-root": "docroot/"
+            }
+        },
+        "enable-patching": true,
+        "installer-paths": {
+            "docroot/core": [
+                "type:drupal-core"
+            ],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "docroot/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "docroot/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "docroot/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
+        },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
+        "patches": {
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "/bin/ln -f -s docroot web",
+            "if [ ! -d ./drupal_config ] ; then mkdir ./drupal_config ; fi",
+            "if [ ! -d ./drupal_config/config ] ; then mkdir ./drupal_config/config ; fi",
+            "cp ./docroot/profiles/contrib/opencommunications/drupal_config/config/* ./drupal_config/config/",
+            "rm -r ./docroot/profiles/contrib/opencommunications/drupal_config"
+        ],
+        "post-update-cmd": [
+        ]
+    }
+}

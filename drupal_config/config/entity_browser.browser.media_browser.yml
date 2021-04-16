@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media
+  module:
+    - views
+name: media_browser
+label: 'Media browser'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Add media'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  5bd49a13-5908-4144-b888-33ff075acd79:
+    settings:
+      view: media
+      view_display: entity_browser_1
+      submit_text: Place
+      auto_select: false
+    uuid: 5bd49a13-5908-4144-b888-33ff075acd79
+    weight: 1
+    label: Library
+    id: view
+  db94dcc6-66ba-47f1-834c-5d7d632f3202:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: Place
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+    uuid: db94dcc6-66ba-47f1-834c-5d7d632f3202
+    weight: 2
+    label: Upload
+    id: upload

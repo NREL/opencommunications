@@ -1,8 +1,7 @@
 name: 'opencommunications'
-core: '8.x'
 type: profile
-base profile: lightning
-description: 'Opencommunications lightning subprofile'
+core_version_requirement: '^9'
+description: 'Opencommunications profile - used as the installation profile for NREL Communications Drupal sites'
 # Optional: Declare your installation profile as a distribution
 # This will make the installer auto-select this installation profile.
 # The distribution_name property is used in the installer and other places as
@@ -10,39 +9,92 @@ description: 'Opencommunications lightning subprofile'
 distribution:
   name: opencommunications
 # Required modules
-themes:
-  - nrel_bootstrap
 install:
-    - address
-    - admin_toolbar
-    - admin_toolbar_links_access_filter
-    - admin_toolbar_tools
-    - advagg
-    - advagg_css_minify
-    - advagg_js_minify
-    - advagg_mod
-    - big_pipe
-    - bootstrap_layouts
-    - contribute
-    - dynamic_page_cache
-    - google_tag
-    - hsts
-    - image_effects
-    - image_captcha
-    - imagemagick
-    - jquery_colorpicker
-    - memcache
-    - memcache_admin
-    - page_cache
-    - password_policy
-    - password_policy_character_types
-    - password_policy_characters
-    - password_policy_history
-    - password_policy_length
-    - password_policy_username
-    - ses_mailer
-    - simple_oauth
-    - simple_oauth_extras
-    - syslog
-    - telephone
-version: '8.x-2.29'
+  - admin_toolbar
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_tools
+  - advagg
+  - advagg_css_minify
+  - advagg_js_minify
+  - advagg_mod
+  - advagg_validator
+  - big_pipe
+  - blazy
+  - blazy_ui
+  - block
+  - bootstrap_layouts
+  - breakpoint
+  - captcha
+  - ckeditor
+  - config
+  - crop
+  - ctools
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - embed
+  - entity_browser
+  - entity_embed
+  - entity_reference_revisions
+  - field
+  - field_group
+  - field_ui
+  - file
+  - file_mdm
+  - filter
+  - google_tag
+  - help
+  - honeypot
+  - image
+  - image_widget_crop
+  - imagemagick
+  - layout_builder
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - memcache
+  - memcache_admin
+  - menu_link_content
+  - menu_ui
+  - metatag
+  - node
+  - options
+  - page_cache
+  - paragraphs
+  - password_policy
+  - password_policy_character_types
+  - password_policy_characters
+  - password_policy_history
+  - password_policy_length
+  - password_policy_username
+  - path
+  - path_alias
+  - pathauto
+  - rdf
+  - recaptcha
+  - seckit
+  - security_review
+#  - ses_mailer - @todo - need to fix error on site install
+  - smtp
+  - sophron
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - token
+  - update
+  - user
+  - video_embed_field
+  - video_embed_media
+  - views
+  - views_ui
+#  - webform - @todo - fix "You have requested a non-existent service "webform.access_rules_manager" on drush si - https://www.drupal.org/project/webform/issues/3022909?
+#  - webform_ui
+
+themes:
+  - seven
+
+version: '9.x-1.0'

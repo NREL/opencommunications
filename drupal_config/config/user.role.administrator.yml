@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: administrator
+label: 'NREL Administrator'
+weight: 2
+is_admin: null
+permissions:
+  - 'use text format full_html'
+  - 'use text format rich_text'

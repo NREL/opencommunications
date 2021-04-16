@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embedded
+    - field.field.media.video_file.field_media_video_file
+    - field.field.media.video_file.field_show_in_media_library
+    - media.type.video_file
+  module:
+    - file
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: media.video_file.embedded
+targetEntityType: media
+bundle: video_file
+mode: embedded
+content:
+  field_media_video_file:
+    type: file_video
+    label: visually_hidden
+    weight: 0
+    settings:
+      muted: false
+      width: 640
+      height: 480
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_show_in_media_library: true
+  name: true
+  thumbnail: true
+  uid: true

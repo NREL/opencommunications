@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media
+  module:
+    - views
+name: media_browser_ckeditor
+label: 'Media browser (CKEditor)'
+display: iframe
+display_configuration:
+  width: 100%
+  height: '640'
+  link_text: 'Select entities'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  aa2b488a-804b-47e6-9e8c-3c5a944f576a:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: Place
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+    uuid: aa2b488a-804b-47e6-9e8c-3c5a944f576a
+    weight: 1
+    label: Upload
+    id: upload
+  144a2903-812a-4983-8445-b15c1134a258:
+    settings:
+      view: media
+      view_display: entity_browser_1
+      submit_text: Place
+      auto_select: false
+    uuid: 144a2903-812a-4983-8445-b15c1134a258
+    weight: 2
+    label: Library
+    id: view

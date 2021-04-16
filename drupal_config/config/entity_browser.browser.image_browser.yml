@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies: {  }
+name: image_browser
+label: 'Image browser'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Select image(s)'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  62ef9499-54a9-4661-9ff2-e4781cb9ae13:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: Select
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+    uuid: 62ef9499-54a9-4661-9ff2-e4781cb9ae13
+    weight: 1
+    label: Upload
+    id: upload
