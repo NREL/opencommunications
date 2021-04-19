@@ -9,9 +9,10 @@ The stable Drupal 8 versions of this profile are still available on branches 4.1
 > mkdir my_new_project<br>
 > cd my_new_project<br>
 > wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer.json<br>
+> wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer.lock<br>
 > edit composer.json - global replace new_project with my_new_project, and site_name with my_new_site_name<br>
 > composer install<br>
-> drush si opencommunications --existing-config --account-name=admin_name --account-mail=admin_mail --account-pass=admin_password —site-name="my_new_site_name"<br>
+> drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass —site-name=“site-name” --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
 > Move database connection details that get added at the end of the existing setting.php into settings.local.php
 
 
