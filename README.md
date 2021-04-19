@@ -8,7 +8,10 @@ The stable Drupal 8 versions of this profile are still available on branches 4.1
 #2 Blazy
 
 The Blazy module (https://www.drupal.org/project/blazy) does not specify a dependency on the Blazy library (https://github.com/dinbror/blazy). The Blazy library is included as a scaffolding asset. If the library needs to be updated download
+
 #3 Usage
+
+##3.1 Create and install a new site from the profile
 
 > - mkdir my_new_project<br>
 > - cd my_new_project<br>
@@ -18,6 +21,10 @@ The Blazy module (https://www.drupal.org/project/blazy) does not specify a depen
 > - composer install<br>
 > - drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass —site-name=“site-name” --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
 > - Move database connection details that get added at the end of the existing setting.php into settings.local.php
+
+##3.1 Update an existing site that uses ythe profile
+
+> - composer update nrel/opencommunications
 
 #4 Optional
 

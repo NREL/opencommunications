@@ -80,7 +80,11 @@
         },
         "drupal-scaffold": {
             "file-mapping": {
-                "[web-root]/sites/default/settings.php": "assets/scaffold/files/settings/settings.php",
+                "[web-root]/sites/default/settings.php": {
+                    "mode": "replace",
+                    "path": "assets/scaffold/files/settings/settings.php",
+                    "overwrite": false
+                },
                 "[web-root]/libraries/blazy/blazy.js": "assets/scaffold/files/blazy/blazy.js",
                 "[web-root]/libraries/blazy/blazy.min.js": "assets/scaffold/files/blazy/blazy.min.js"
             },
