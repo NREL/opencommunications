@@ -21,10 +21,13 @@ The Blazy module (https://www.drupal.org/project/blazy) does not specify a depen
 
 #4 Optional
 
-reCaptcha
+##1 reCaptcha
 > - Create a recaptcha account for the site<br>
 > - set the reCaptcha site and secret keys:<br>
 >   - drush cset recaptcha.settings site_key new_site_key -y<br>
 >   - drush cset recaptcha.settings secret_key new_secret_key -y<br>
 > - drush cset captcha.settings enabled_default 1 -y<br>
 
+##1 Google Tag Manager
+> - set the id on the 'default' GTM container
+>   - drush cset google_tag.container.default container_id GTM-xxxxxx -y<br>
