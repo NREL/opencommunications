@@ -10,3 +10,5 @@ modules/contrib/
 themes/bootstrap/
 profiles/
 console/
+/.editorconfig
+/.gitattributes
