@@ -5440,12 +5440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/opencommunications.git",
-                "reference": "12f08e3359f8e5dd985c7af85ce936b55df36383"
+                "reference": "c50452c0efa010e8f58ed5a97787c497e24a64fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/12f08e3359f8e5dd985c7af85ce936b55df36383",
-                "reference": "12f08e3359f8e5dd985c7af85ce936b55df36383",
+                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/c50452c0efa010e8f58ed5a97787c497e24a64fe",
+                "reference": "c50452c0efa010e8f58ed5a97787c497e24a64fe",
                 "shasum": ""
             },
             "require": {
@@ -5500,7 +5500,9 @@
                 },
                 "drupal-scaffold": {
                     "file-mapping": {
-                        "[web-root]/sites/default/settings.php": "assets/scaffold/files/settings.php"
+                        "[web-root]/sites/default/settings.php": "assets/scaffold/files/settings/settings.php",
+                        "[web-root]/libraries/blazy/blazy.js": "assets/scaffold/files/blazy/blazy.js",
+                        "[web-root]/libraries/blazy/blazy.min.js": "assets/scaffold/files/blazy/blazy.min.js"
                     },
                     "locations": {
                         "web-root": "docroot/"
@@ -5508,31 +5510,31 @@
                 },
                 "enable-patching": true,
                 "installer-paths": {
-                    "web/core": [
+                    "docroot/core": [
                         "type:drupal-core"
                     ],
-                    "web/libraries/{$name}": [
+                    "docroot/libraries/{$name}": [
                         "type:drupal-library"
                     ],
-                    "web/modules/contrib/{$name}": [
+                    "docroot/modules/contrib/{$name}": [
                         "type:drupal-module"
                     ],
-                    "web/profiles/contrib/{$name}": [
+                    "docroot/profiles/contrib/{$name}": [
                         "type:drupal-profile"
                     ],
-                    "web/themes/contrib/{$name}": [
+                    "docroot/themes/contrib/{$name}": [
                         "type:drupal-theme"
                     ],
                     "drush/Commands/contrib/{$name}": [
                         "type:drupal-drush"
                     ],
-                    "web/modules/custom/{$name}": [
+                    "docroot/modules/custom/{$name}": [
                         "type:drupal-custom-module"
                     ],
-                    "web/profiles/custom/{$name}": [
+                    "docroot/profiles/custom/{$name}": [
                         "type:drupal-custom-profile"
                     ],
-                    "web/themes/custom/{$name}": [
+                    "docroot/themes/custom/{$name}": [
                         "type:drupal-custom-theme"
                     ]
                 },
@@ -5575,7 +5577,7 @@
                 "issues": "https://github.com/NREL/opencommunications/issues",
                 "source": "https://github.com/NREL/opencommunications/tree/master"
             },
-            "time": "2021-04-16T23:47:34+00:00"
+            "time": "2021-04-19T18:26:41+00:00"
         },
         {
             "name": "pear/archive_tar",

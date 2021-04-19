@@ -12,8 +12,8 @@ The Blazy module (https://www.drupal.org/project/blazy) does not specify a depen
 
 > - mkdir my_new_project<br>
 > - cd my_new_project<br>
-> - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer.json<br>
-> - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer.lock<br>
+> - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.json<br>
+> - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
 > - edit composer.json - global replace new_project with my_new_project, and site_name with my_new_site_name<br>
 > - composer install<br>
 > - drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass —site-name=“site-name” --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
