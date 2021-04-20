@@ -5440,12 +5440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/opencommunications.git",
-                "reference": "c50452c0efa010e8f58ed5a97787c497e24a64fe"
+                "reference": "8b221c582da3dd37b77a9ab2c3b972407ef578e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/c50452c0efa010e8f58ed5a97787c497e24a64fe",
-                "reference": "c50452c0efa010e8f58ed5a97787c497e24a64fe",
+                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/8b221c582da3dd37b77a9ab2c3b972407ef578e6",
+                "reference": "8b221c582da3dd37b77a9ab2c3b972407ef578e6",
                 "shasum": ""
             },
             "require": {
@@ -5500,7 +5500,11 @@
                 },
                 "drupal-scaffold": {
                     "file-mapping": {
-                        "[web-root]/sites/default/settings.php": "assets/scaffold/files/settings/settings.php",
+                        "[web-root]/sites/default/settings.php": {
+                            "mode": "replace",
+                            "path": "assets/scaffold/files/settings/settings.php",
+                            "overwrite": false
+                        },
                         "[web-root]/libraries/blazy/blazy.js": "assets/scaffold/files/blazy/blazy.js",
                         "[web-root]/libraries/blazy/blazy.min.js": "assets/scaffold/files/blazy/blazy.min.js"
                     },
@@ -5577,7 +5581,7 @@
                 "issues": "https://github.com/NREL/opencommunications/issues",
                 "source": "https://github.com/NREL/opencommunications/tree/master"
             },
-            "time": "2021-04-19T18:26:41+00:00"
+            "time": "2021-04-20T15:55:28+00:00"
         },
         {
             "name": "pear/archive_tar",
