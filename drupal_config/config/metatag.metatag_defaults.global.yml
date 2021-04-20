@@ -4,5 +4,5 @@ dependencies: {  }
 id: global
 label: Global
 tags:
+  title: '[current-page:title] | [site:name] | NREL'
   canonical_url: '[current-page:url]'
-  title: '[current-page:title] | [site:name]'

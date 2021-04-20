@@ -1,0 +1,29 @@
+entity_type_groups:
+  media:
+    audio_file:
+      basic: basic
+    document:
+      basic: basic
+    image:
+      basic: basic
+    video:
+      basic: basic
+    video_file:
+      basic: basic
+  node:
+    article:
+      basic: basic
+    page:
+      basic: basic
+  path_alias:
+    path_alias:
+      basic: basic
+  taxonomy_term:
+    tags:
+      basic: basic
+  user:
+    user:
+      basic: basic
+  webform_submission:
+    contact:
+      basic: basic

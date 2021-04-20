@@ -4,6 +4,6 @@ dependencies: {  }
 id: node
 label: Content
 tags:
-  title: '[node:title] | [site:name]'
-  description: '[node:summary]'
+  title: '[node:title] | [site:name] | NREL'
   canonical_url: '[node:url]'
+  description: '[node:summary]'
