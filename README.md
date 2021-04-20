@@ -19,12 +19,33 @@ The Blazy module (https://www.drupal.org/project/blazy) does not specify a depen
 > - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
 > - edit composer.json - global replace new_project with my_new_project, and site_name with my_new_site_name<br>
 > - composer install<br>
-> - drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass —site-name=“site-name” --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
+> - drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
+> - drush cset system.site name "my_new_site_name" -y<br>
+> - drush cset system.site mail no_reply@mailer.nrel.gov -y<br>
 > - Move database connection details that get added at the end of the existing setting.php into settings.local.php
 
-##3.1 Update an existing site that uses ythe profile
+##3.1 Update an existing site that uses the profile
 
 > - composer update nrel/opencommunications
+
+#4 Updating this profile
+
+##4.1 Update a package
+
+> - composer update vendor/package
+> - add, commit and push the changes
+
+##4.2 Update the template composer.lock
+
+> - create a dummy project
+>   - mkdir dummy_project<br>
+>   - cd my_new_project<br>
+>   - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.json<br>
+>   - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
+> - update the composer.lock
+>   - composer update nrel/opencommunications
+> - copy the composer.lock into NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
+> - add, commit and push the changes to composer.lock
 
 #4 Optional
 
