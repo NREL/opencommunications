@@ -82,6 +82,11 @@
         },
         "drupal-scaffold": {
             "file-mapping": {
+                "./.gitignore": {
+                    "mode": "replace",
+                    "path": "assets/scaffold/files/git/.gitignore",
+                    "overwrite": false
+                },
                 "[web-root]/sites/default/settings.php": {
                     "mode": "replace",
                     "path": "assets/scaffold/files/settings/settings.php",
