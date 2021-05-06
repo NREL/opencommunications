@@ -5440,12 +5440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/opencommunications.git",
-                "reference": "b1fdae486e38b327294d78909f767d1ae9ad49ef"
+                "reference": "42907e3b333023aafe57633cfe4c3540c03da5d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/b1fdae486e38b327294d78909f767d1ae9ad49ef",
-                "reference": "b1fdae486e38b327294d78909f767d1ae9ad49ef",
+                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/42907e3b333023aafe57633cfe4c3540c03da5d6",
+                "reference": "42907e3b333023aafe57633cfe4c3540c03da5d6",
                 "shasum": ""
             },
             "require": {
@@ -5502,6 +5502,11 @@
                 },
                 "drupal-scaffold": {
                     "file-mapping": {
+                        "./.gitignore": {
+                            "mode": "replace",
+                            "path": "assets/scaffold/files/git/.gitignore",
+                            "overwrite": false
+                        },
                         "[web-root]/sites/default/settings.php": {
                             "mode": "replace",
                             "path": "assets/scaffold/files/settings/settings.php",
@@ -5580,7 +5585,7 @@
                 "issues": "https://github.com/NREL/opencommunications/issues",
                 "source": "https://github.com/NREL/opencommunications/tree/master"
             },
-            "time": "2021-05-05T16:37:31+00:00"
+            "time": "2021-05-05T18:16:24+00:00"
         },
         {
             "name": "pear/archive_tar",
