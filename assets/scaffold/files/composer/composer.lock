@@ -5440,12 +5440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/opencommunications.git",
-                "reference": "a9d742e3f24506d14e23a3bd3fa9af56f3c78f49"
+                "reference": "23ae740a5f1b038393dfc4bf39f51a9c235457c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/a9d742e3f24506d14e23a3bd3fa9af56f3c78f49",
-                "reference": "a9d742e3f24506d14e23a3bd3fa9af56f3c78f49",
+                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/23ae740a5f1b038393dfc4bf39f51a9c235457c0",
+                "reference": "23ae740a5f1b038393dfc4bf39f51a9c235457c0",
                 "shasum": ""
             },
             "require": {
@@ -5585,7 +5585,7 @@
                 "issues": "https://github.com/NREL/opencommunications/issues",
                 "source": "https://github.com/NREL/opencommunications/tree/master"
             },
-            "time": "2021-05-06T18:27:39+00:00"
+            "time": "2021-05-06T18:31:37+00:00"
         },
         {
             "name": "pear/archive_tar",

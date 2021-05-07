@@ -32,6 +32,16 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "assets" : {
+            "type": "composer",
+            "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
+            "options" : {
+                "ssl" : {
+                    "verify_peer": false,
+                    "allow_self_signed": true
+                }
+            }
         }
     },
     "config": {
@@ -87,9 +97,7 @@
         "post-install-cmd": [
             "/bin/ln -f -s docroot web",
             "if [ ! -d ./drupal_config ] ; then mkdir ./drupal_config ; fi",
-            "if [ ! -d ./drupal_config/config ] ; then mkdir ./drupal_config/config ; fi",
-            "cp ./docroot/profiles/contrib/opencommunications/drupal_config/config/* ./drupal_config/config/",
-            "rm -r ./docroot/profiles/contrib/opencommunications/drupal_config"
+            "if [ ! -d ./drupal_config/config ] ; then mkdir ./drupal_config/config && cp ./docroot/profiles/contrib/opencommunications/drupal_config/config/* ./drupal_config/config/ && rm -r ./docroot/profiles/contrib/opencommunications/drupal_config; fi"
         ],
         "post-update-cmd": [
         ]
