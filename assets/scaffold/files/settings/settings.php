@@ -7,7 +7,6 @@ $settings['hash_salt'] = 'cdXLPEnUGtZcgXEqwQAjCJ1T2Hp9jZs2TO1k6EASU6qWUS5KxRrWwP
 
 $settings['update_free_access'] = FALSE;
 
-
 if (isset($_SERVER['WWW_NREL'])) {
   // Never allow updating modules through UI.
   $settings['allow_authorize_operations'] = FALSE;
@@ -25,18 +24,20 @@ if (isset($_SERVER['WWW_NREL'])) {
   $config['system.file']['path']['temporary'] = '/var/www/common/tmp';
   $config['system.mail']['interface']['default'] = 'ses_mail';
 
-
   /**
    * Fast 404 pages:
-   *
    */
   $config['system.performance']['fast_404']['exclude_paths'] = '/\/(?:styles)|(?:system\/files)\//';
   $config['system.performance']['fast_404']['paths'] = '/\.(?:txt|png|gif|jpe?g|css|js|ico|swf|flv|cgi|bat|pl|dll|exe|asp)$/i';
   $config['system.performance']['fast_404']['html'] = '<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL "@path" was not found on this server.</p></body></html>';
 
+  /**
+   * Container YAMLs
+   */
   $settings['container_yamls'] = array (
     DRUPAL_ROOT . '/sites/default/services.yml',
     DRUPAL_ROOT . '/sites/default/local.services.yml',
+    DRUPAL_ROOT . '/sites/default/ses_mailer.services.yml',
     DRUPAL_ROOT . '/modules/contrib/memcache/memcache.services.yml'
   );
 
@@ -117,7 +118,6 @@ if (FALSE !== getenv('ENVIRONMENT')) {
     $config['advagg.settings']['enabled'] = FALSE;
 
     $settings['trusted_host_patterns'] = array(
-      'nrel-sws.docksal',
     );
 
     $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
@@ -130,8 +130,6 @@ if (FALSE !== getenv('ENVIRONMENT')) {
     $config['smtp.settings']['smtp_port'] = 1025;
     $config['smtp.settings']['smtp_protocol'] = 'standard';
     $settings['trusted_host_patterns'] = array(
-      'nrel-sws.cloud.fruitionqa.com',
-      'nrel-sws-phase-2.cloud.fruitionqa.com',
     );
   }
 
@@ -143,8 +141,6 @@ if (FALSE !== getenv('ENVIRONMENT')) {
     $config['smtp.settings']['smtp_username'] = getenv('SMTP_USER');
     $config['smtp.settings']['smtp_password'] = getenv('SMTP_PASSWORD');
     $settings['trusted_host_patterns'] = array(
-      'nrel-sws.prod.fruition.net',
-      'sws2.nrel.gov',
     );
   }
   if (getenv('ENVIRONMENT') != 'PRODUCTION') {
