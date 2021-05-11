@@ -109,49 +109,48 @@ into a new project folder to scaffold that project. Running composer install aga
 
 ##3.1 Create and install a new site from the profile
 
-> - mkdir my_new_project<br>
-> - cd my_new_project<br>
-> - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.json<br>
-> - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
-> - edit composer.json - global replace new_project with my_new_project, and site_name with my_new_site_name<br>
-> - composer install<br>
-> - drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
-> - drush cset system.site name "my_new_site_name" -y<br>
-> - drush cset system.site mail no_reply@mailer.nrel.gov -y<br>
-> - Move database connection details that get added at the end of the existing setting.php into settings.local.php
+- mkdir my_new_project<br>
+- cd my_new_project<br>
+- wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.json<br>
+- wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
+- edit composer.json - global replace new_project with my_new_project, and site_name with my_new_site_name<br>
+- composer install<br>
+- drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
+- drush cset system.site name "my_new_site_name" -y<br>
+- drush cset system.site mail no_reply@mailer.nrel.gov -y<br>
+- Move database connection details that get added at the end of the existing setting.php into settings.local.php
 
 ##3.2 Optional
 
 ##3.2.1 reCaptcha
-> - Create a recaptcha account for the site<br>
-> - set the reCaptcha site and secret keys:<br>
->   - drush cset recaptcha.settings site_key new_site_key -y<br>
->   - drush cset recaptcha.settings secret_key new_secret_key -y<br>
-> - drush cset captcha.settings enabled_default 1 -y<br>
+- Create a recaptcha account for the site<br>
+- set the reCaptcha site and secret keys:<br>
+  - drush cset recaptcha.settings site_key new_site_key -y<br>
+  - drush cset recaptcha.settings secret_key new_secret_key -y<br>
+- drush cset captcha.settings enabled_default 1 -y<br>
 
 ##3.2.2 Google Tag Manager
-> - set the id on the 'default' GTM container
->   - drush cset google_tag.container.default container_id GTM-xxxxxx -y<br>
+- set the id on the 'default' GTM container
+  - drush cset google_tag.container.default container_id GTM-xxxxxx -y<br>
 
 ##4 Update an existing site that uses the profile
 
-> - composer update nrel/opencommunications
+- composer update nrel/opencommunications
 
 #5 Updating this profile
 
 ##5.1 Update a package
 
-> - composer update vendor/package
-> - add, commit and push the changes
+- composer update vendor/package
+- add, commit and push the changes
 
 ##5.2 Update the template composer.lock
 
-> - create a dummy project
->   - mkdir dummy_project<br>
->   - cd my_new_project<br>
->   - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.json<br>
->   - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
-> - update the composer.lock
->   - composer update nrel/opencommunications
-> - copy the composer.lock into NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock<br>
-> - add, commit and push the changes to composer.lock
+- create a dummy project
+  - mkdir dummy_project<br>
+  - cd my_new_project<br>
+  - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.json<br>
+- update the composer.lock
+  - composer install
+- copy the composer.lock into NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock
+- add, commit and push the changes to composer.lock
