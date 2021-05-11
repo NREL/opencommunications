@@ -87,6 +87,7 @@
                     "path": "assets/scaffold/files/git/.gitignore",
                     "overwrite": false
                 },
+                "[web-root]/sites/default/ses_mailer.services.yml": "assets/scaffold/files/service/ses_mailer.services.yml",
                 "[web-root]/sites/default/settings.php": {
                     "mode": "replace",
                     "path": "assets/scaffold/files/settings/settings.php",
