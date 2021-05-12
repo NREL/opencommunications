@@ -2,7 +2,7 @@
 bin/
 docroot/
 vendor/
-scripts/
+/scripts/
 node_modules/
 bower_components/
 .sass-cache/
