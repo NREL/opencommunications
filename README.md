@@ -135,7 +135,7 @@ into a new project folder to scaffold that project. Running composer install aga
 
 ##4 Update an existing site that uses the profile
 
-- composer update nrel/opencommunications
+- composer update nrel/opencommunications -w
 
 #5 Updating this profile
 
