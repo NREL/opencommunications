@@ -117,7 +117,7 @@ into a new project folder to scaffold that project. Running composer install aga
 - composer install<br>
 - drush si opencommunications --existing-config --account-name=account-name --account-mail=account-mail --account-pass=account-pass --db-url=db-driver://db-su:db-su-pw@db-host:db-port/db-name -y
 - drush cset system.site name "my_new_site_name" -y<br>
-- drush cset system.site mail no_reply@mailer.nrel.gov -y<br>
+- drush cset system.site mail no_reply@example.com -y<br>
 - Move database connection details that get added at the end of the existing setting.php into settings.local.php
 
 ##3.2 Optional
@@ -135,7 +135,7 @@ into a new project folder to scaffold that project. Running composer install aga
 
 ##4 Update an existing site that uses the profile
 
-- composer update nrel/opencommunications -w
+- composer update nrel/opencommunications
 
 #5 Updating this profile
 
