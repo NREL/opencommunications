@@ -33,15 +33,9 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "assets" : {
+        "assets": {
             "type": "composer",
-            "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
-            "options" : {
-                "ssl" : {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            }
+            "url": "https://asset-packagist.org"
         }
     },
     "config": {
