@@ -38,7 +38,7 @@
         "drupal/advagg": "^4.1",
         "drupal/blazy": "^2.1",
         "drupal/bootstrap_layouts": "^5.2",
-        "drupal/core": "^9.1",
+        "drupal/core": "^9.2",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
@@ -138,8 +138,7 @@
         "patches": {
             "drupal/core": {
                 "Views does not create parent local task for a default local task - https://www.drupal.org/project/drupal/issues/2804195": "https://www.drupal.org/files/issues/2018-04-03/2804195-54.patch",
-                "Views UI should offer a null/not null option on boolean field filtering to expose the already existing code path for handling this - https://www.drupal.org/project/drupal/issues/2769407": "https://www.drupal.org/files/issues/2020-10-18/2769407-46.patch",
-                "Composer-friendly patches for filename sanitation while #2492171 awaits #3032390 - https://www.drupal.org/project/drupal/issues/3094052": "https://www.drupal.org/files/issues/2021-05-12/3094052-12.patch"
+                "Views UI should offer a null/not null option on boolean field filtering to expose the already existing code path for handling this - https://www.drupal.org/project/drupal/issues/2769407": "https://www.drupal.org/files/issues/2020-10-18/2769407-46.patch"
             },
             "drupal/entity_browser": {
                 "Drupal 9 - Error when configuring an entity browser views display - https://www.drupal.org/project/entity_browser/issues/3154079": "https://www.drupal.org/files/issues/2020-06-23/entity_browser_views_display_error_3154079_2_D9.patch"
