@@ -138,7 +138,7 @@
         "drupal/multiversion": "^1.0@beta",
         "drupal/noopener_filter": "~1.0",
         "drupal/parallax_bg": "~1.0",
-        "drupal/password_policy": " ^3.0@beta",
+        "drupal/password_policy": "^3.0",
         "drupal/permissions_by_term": "^1.61",
         "drupal/realistic_dummy_content": "^2.0",
         "drupal/recaptcha": "^2.4",
