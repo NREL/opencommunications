@@ -56,7 +56,7 @@
         "drupal/metatag": "^1.16",
         "drupal/module_filter": "^3.2",
         "drupal/paragraphs": "^1.12",
-        "drupal/password_policy": "3.0-beta1",
+        "drupal/password_policy": "^3.0",
         "drupal/pathauto": "^1.8",
         "drupal/recaptcha": "^3.0",
         "drupal/seckit": "^2.0",
@@ -141,8 +141,7 @@
                 "Views UI should offer a null/not null option on boolean field filtering to expose the already existing code path for handling this - https://www.drupal.org/project/drupal/issues/2769407": "https://www.drupal.org/files/issues/2020-10-18/2769407-46.patch"
             },
             "drupal/password_policy": {
-                "Can't edit user profile because password policy validates even when password unchanged - https://www.drupal.org/project/password_policy/issues/2971079": "https://www.drupal.org/files/issues/2020-03-19/password_policy-empty-password-skip-validation-2971079-37.patch",
-                "Field field_last_password_reset is unknown while importing configuration on site without password_policy activated - https://www.drupal.org/project/password_policy/issues/2771129": "https://www.drupal.org/files/issues/2020-07-03/2771129-114.patch"
+                "Field field_last_password_reset is unknown while importing configuration on site without password_policy activated - https://www.drupal.org/project/password_policy/issues/2771129": "https://www.drupal.org/files/issues/2021-07-05/password_policy_field_last_password_reset_unknown_error_2771129-130.patch"
             }
         }
     }
