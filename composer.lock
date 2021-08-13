@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d70560bc4145701ce32519310a638872",
+    "content-hash": "022dd5efff5421368ea37948a8382274",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5442,6 +5442,59 @@
             "time": "2021-07-21T10:44:31+00:00"
         },
         {
+            "name": "nrel/nrel_cyber",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:NREL/nrel_cyber.git",
+                "reference": "b3161b2644762c6006500840f47b804d62501fd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NREL/nrel_cyber/zipball/b3161b2644762c6006500840f47b804d62501fd8",
+                "reference": "b3161b2644762c6006500840f47b804d62501fd8",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Shaun Laws (slaws)",
+                    "email": "shaun.laws@nrel.gov",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "Christian Modern (cmodern)",
+                    "email": "christian.modern@nrel.gov",
+                    "role": "Co-maintainer"
+                }
+            ],
+            "description": "NREL Cyber-related functionality.",
+            "homepage": "https://github.com/NREL/nrel_cyber",
+            "support": {
+                "issues": "https://www.drupal.org/project/issues/log_stdout",
+                "irc": "irc://irc.freenode.org/drupal-support",
+                "source": "https://github.com/NREL/nrel_cyber/tree/main"
+            },
+            "transport-options": {
+                "ssl": {
+                    "verify_peer": false,
+                    "allow_self_signed": true
+                }
+            },
+            "time": "2021-08-13T17:24:42+00:00"
+        },
+        {
             "name": "pear/archive_tar",
             "version": "1.4.14",
             "source": {
@@ -9766,7 +9819,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/ses_mailer": 20
+        "drupal/ses_mailer": 20,
+        "nrel/nrel_cyber": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

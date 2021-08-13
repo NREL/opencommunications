@@ -26,9 +26,15 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "assets": {
+        "assets" : {
             "type": "composer",
-            "url": "https://asset-packagist.org"
+            "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
+            "options" : {
+                "ssl" : {
+                    "verify_peer": false,
+                    "allow_self_signed": true
+                }
+            }
         }
     },
     "require": {
@@ -66,6 +72,7 @@
         "drupal/video_embed_media": "^2.4",
         "drupal/webform": "^6.0",
         "drush/drush": "^10.4",
+        "nrel/nrel_cyber": "dev-main",
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {
