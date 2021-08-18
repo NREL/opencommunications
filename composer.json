@@ -22,20 +22,19 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        "assets" : {
-            "type": "composer",
-            "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
-            "options" : {
-                "ssl" : {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            }
-        }
+      "assets" : {
+        "type": "composer",
+        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
+        "options" : {
+              "ssl" : {
+                  "verify_peer": false,
+                  "allow_self_signed": true
+              }
+          }
+      },
+      "packagist.org": false,
+      "packages.drupal.org": false,
+      "asset-packagist.org": false
     },
     "require": {
         "composer/installers": "^1.9",
@@ -53,7 +52,7 @@
         "drupal/entity_browser": "^2.5",
         "drupal/entity_embed": "^1.1",
         "drupal/entity_reference_revisions": "^1.9",
-        "drupal/field_group": "^3.1",
+        "drupal/field_group": "^3.2",
         "drupal/google_tag": "^1.4",
         "drupal/honeypot": "^2.0",
         "drupal/image_widget_crop": "^2.3",
