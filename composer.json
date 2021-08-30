@@ -71,7 +71,6 @@
         "drupal/video_embed_media": "^2.4",
         "drupal/webform": "^6.0",
         "drush/drush": "^10.4",
-        "nrel/nrel_cyber": "dev-main",
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {
