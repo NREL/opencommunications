@@ -25,7 +25,7 @@
       "drupal" : {
         "type": "composer",
         "url": "https://packages.drupal.org/",
-      },
+      }
     },
     "require": {
         "composer/installers": "^1.9",
