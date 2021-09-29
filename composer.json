@@ -96,7 +96,7 @@
         }
     },
     "require": {
-        "acquia/lightning": "~4.1.17",
+        "acquia/lightning": "~4.1.18",
         "aws/aws-sdk-php": "~3.0",
         "bower-asset/highlightjs": "^9.12",
         "bower-asset/imagesloaded": "^4.1",
