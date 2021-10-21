@@ -22,10 +22,18 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
-          "drupal" : {
+        "assets" : {
             "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
+            "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
+            "options" : {
+                "ssl" : {
+                    "verify_peer": false,
+                    "allow_self_signed": true
+                }
+            }
+        },
+        "packagist.org": false,
+        "packages.drupal.org": false
     },
     "require": {
         "composer/installers": "^1.9",
