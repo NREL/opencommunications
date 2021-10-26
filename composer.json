@@ -28,7 +28,6 @@
         "drupal/twig_vardumper": "^1.1",
         "drupal/twig_xdebug": "^1.0",
         "drupal/vardumper": "^1.4",
-        "drupal/upgrade_status": "^1.0-beta2",
         "drush/config-extra": "^1.0",
         "pear/console_color2": "^0.1.2"
     },
