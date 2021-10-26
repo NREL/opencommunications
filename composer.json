@@ -110,7 +110,6 @@
         "drupal/console": "~1.6",
         "drupal/contribute": "~1.0-beta8",
         "drupal/editor_file": "^1.2",
-        "drupal/field_token_value": "^2.0",
         "drupal/google_tag": "~1.1",
         "drupal/hsts": "^1.0",
         "drupal/image_effects": "^3.0",
