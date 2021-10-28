@@ -102,7 +102,7 @@
         "bower-asset/imagesloaded": "^4.1",
         "bower-asset/masonry": "^4.2",
         "drupal/address": "~1.0",
-        "drupal/admin_toolbar": "~2.0",
+        "drupal/admin_toolbar": "^3.0",
         "drupal/advagg": "^4.0",
         "drupal/auto_entitylabel": "~3.0-beta",
         "drupal/block_styles": "^1.2",
