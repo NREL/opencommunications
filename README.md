@@ -148,8 +148,8 @@ into a new project folder to scaffold that project. Running composer install aga
 
 - create a dummy project
   - mkdir dummy_project<br>
-  - cd my_new_project<br>
-  - wget https://raw.githubusercontent.com/NREL/opencommunications/master/assets/scaffold/files/composer/composer.json<br>
+  - cd dummy_project<br>
+  - wget https://raw.githubusercontent.com/NREL/opencommunications/main/assets/scaffold/files/composer/composer.json<br>
 - update the composer.lock
   - composer install
 - copy the composer.lock into NREL/opencommunications/master/assets/scaffold/files/composer/composer.lock
