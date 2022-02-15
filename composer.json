@@ -107,7 +107,7 @@
                 "[web-root]/libraries/blazy/blazy.min.js": "assets/scaffold/files/blazy/blazy.min.js"
             },
             "locations": {
-                "web-root": "docroot/"
+                "web-root": "web/"
             }
         },
         "enable-patching": true,
