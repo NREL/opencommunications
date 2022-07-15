@@ -67,6 +67,7 @@
         "drupal/ses_mailer": "1.x-dev",
         "drupal/smtp": "^1.0",
         "drupal/sophron": "^1.2",
+        "drupal/username_enumeration_prevention": "^1.2",
         "drupal/video_embed_media": "^2.4",
         "drupal/webform": "^6.0",
         "drush/drush": "^10.6",

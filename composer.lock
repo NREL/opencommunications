@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4d70dd728b0a033b55bd84f6c6141d1",
+    "content-hash": "fc22e095af96def690659c5136f6cc30",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4511,6 +4511,62 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
+            },
+            "transport-options": {
+                "ssl": {
+                    "verify_peer": false,
+                    "allow_self_signed": true
+                }
+            }
+        },
+        {
+            "name": "drupal/username_enumeration_prevention",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/username_enumeration_prevention.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/username_enumeration_prevention-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "0fe67462d3c919a7a8f33c41f1cb593ecf7ed7cf",
+                "mirrors": [
+                    {
+                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1613949220",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "nicksanta",
+                    "homepage": "https://www.drupal.org/user/87915"
+                }
+            ],
+            "description": "Prevents username enumeration on password reset and user pages.",
+            "homepage": "https://www.drupal.org/project/username_enumeration_prevention",
+            "support": {
+                "source": "https://git.drupalcode.org/project/username_enumeration_prevention"
             },
             "transport-options": {
                 "ssl": {
