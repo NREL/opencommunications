@@ -88,6 +88,7 @@ into a new project folder to scaffold that project. Running composer install aga
         - toolbar
         - update
         - user
+        - username_enumeration_prevention
         - video_embed_field
         - video_embed_media
         - views_ui
