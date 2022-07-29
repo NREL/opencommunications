@@ -150,9 +150,6 @@
         "patches": {
             "drupal/core": {
                 "Views does not create parent local task for a default local task - https://www.drupal.org/project/drupal/issues/2804195": "https://www.drupal.org/files/issues/2018-04-03/2804195-54.patch"
-            },
-            "drupal/password_policy": {
-                "Field field_last_password_reset is unknown while importing configuration on site without password_policy activated - https://www.drupal.org/project/password_policy/issues/2771129": "https://www.drupal.org/files/issues/2021-07-05/password_policy_field_last_password_reset_unknown_error_2771129-130.patch"
             }
         }
     }
