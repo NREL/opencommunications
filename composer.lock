@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3de625abe836cebde68e5162b8a2415",
+    "content-hash": "343b599bba1ff1a57f00672665e20405",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2487,17 +2487,17 @@
         },
         {
             "name": "drupal/ctools",
-            "version": "4.0.1",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ctools.git",
-                "reference": "4.0.1"
+                "reference": "8.x-3.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ctools-4.0.1.zip",
-                "reference": "4.0.1",
-                "shasum": "ac2373c13efd7d95da7230bd5a6627f16a6a5b6e",
+                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.10.zip",
+                "reference": "8.x-3.10",
+                "shasum": "8b515a3816a47a9eb55e0c4f4df42839ff4f2660",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -2511,15 +2511,15 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.0.1",
-                    "datestamp": "1659069125",
+                    "version": "8.x-3.10",
+                    "datestamp": "1659040378",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "branch-alias": {
-                    "dev-4.x": "4.x-dev"
+                    "dev-8.x-3.x": "3.x-dev"
                 }
             },
             "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
@@ -2553,9 +2553,8 @@
                     "role": "Maintainer"
                 },
                 {
-                    "name": "Joël (joelpittet)",
-                    "homepage": "https://www.drupal.org/u/joelpittet",
-                    "role": "Maintainer"
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
                 },
                 {
                     "name": "merlinofchaos",

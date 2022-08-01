@@ -45,7 +45,7 @@
         "drupal/core-composer-scaffold": "^9.4.0",
         "drupal/core-project-message": "^9.4.0",
         "drupal/core-recommended": "^9.4.0",
-        "drupal/ctools": "^4.0",
+        "drupal/ctools": "^3.10",
         "drupal/embed": "^1.4",
         "drupal/entity_browser": "^2.5",
         "drupal/entity_embed": "^1.1",
