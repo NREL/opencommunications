@@ -59,7 +59,7 @@
         "drupal/metatag": "^1.17",
         "drupal/module_filter": "^3.2",
         "drupal/paragraphs": "^1.12",
-        "drupal/password_policy": "^3.0",
+        "drupal/password_policy": "^3.1",
         "drupal/pathauto": "^1.8",
         "drupal/recaptcha": "^3.0",
         "drupal/seckit": "^2.0",
