@@ -5904,12 +5904,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/opencommunications.git",
-                "reference": "5feb1f63e677eaadf9cfe634d42fe2c01bc767cd"
+                "reference": "b91af562783571ae3d4e5864fcf472fce3d918c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/5feb1f63e677eaadf9cfe634d42fe2c01bc767cd",
-                "reference": "5feb1f63e677eaadf9cfe634d42fe2c01bc767cd",
+                "url": "https://api.github.com/repos/NREL/opencommunications/zipball/b91af562783571ae3d4e5864fcf472fce3d918c5",
+                "reference": "b91af562783571ae3d4e5864fcf472fce3d918c5",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6054,7 +6054,7 @@
                 "issues": "https://github.com/NREL/opencommunications/issues",
                 "source": "https://github.com/NREL/opencommunications/tree/main"
             },
-            "time": "2022-08-03T19:39:16+00:00"
+            "time": "2022-08-03T22:43:23+00:00"
         },
         {
             "name": "pear/archive_tar",
