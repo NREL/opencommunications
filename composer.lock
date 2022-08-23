@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e1578ee8baa1e037371b521f4c097ef",
+    "content-hash": "e661ea22099015946b9c0eb8e73cae42",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3396,17 +3396,17 @@
         },
         {
             "name": "drupal/memcache",
-            "version": "2.3.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/memcache.git",
-                "reference": "8.x-2.3"
+                "reference": "8.x-2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.3.zip",
-                "reference": "8.x-2.3",
-                "shasum": "b2f9715612be74f9ce55daaf838f6f17a9eb2f5a",
+                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.5.zip",
+                "reference": "8.x-2.5",
+                "shasum": "a01db2a9b7122a397c4f4ad66e0a380d1148a157",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -3415,13 +3415,13 @@
                 ]
             },
             "require": {
-                "drupal/core": "^8.9 || ^9"
+                "drupal/core": "^9.1 || ^10"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.3",
-                    "datestamp": "1614802365",
+                    "version": "8.x-2.5",
+                    "datestamp": "1661188440",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3437,14 +3437,6 @@
             ],
             "authors": [
                 {
-                    "name": "Fabianx",
-                    "homepage": "https://www.drupal.org/user/693738"
-                },
-                {
-                    "name": "Jeremy",
-                    "homepage": "https://www.drupal.org/user/409"
-                },
-                {
                     "name": "bdragon",
                     "homepage": "https://www.drupal.org/user/53081"
                 },
@@ -3457,8 +3449,16 @@
                     "homepage": "https://www.drupal.org/user/1037976"
                 },
                 {
+                    "name": "Fabianx",
+                    "homepage": "https://www.drupal.org/user/693738"
+                },
+                {
                     "name": "japerry",
                     "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "Jeremy",
+                    "homepage": "https://www.drupal.org/user/409"
                 },
                 {
                     "name": "jvandyk",
