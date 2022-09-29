@@ -75,7 +75,7 @@
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {
-        "drupal/devel": "^4.1",
+        "drupal/devel": "^5.0",
         "kint-php/kint": "^3.3"
     },
     "config": {
