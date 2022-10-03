@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d71a27808aaa090e0bb55cb28ebe4001",
+    "content-hash": "32963178ecd1055953f401ca509188f4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4289,17 +4289,17 @@
         },
         {
             "name": "drupal/sophron",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/sophron.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/sophron-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "f222f4db7d43ee604c6c7a8f5a17a76c16a66e93",
+                "url": "https://ftp.drupal.org/files/projects/sophron-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "426dde53813e855317d6f7ef9fd6b104cc8a3e22",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -4308,14 +4308,14 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9.2",
-                "fileeye/mimemap": "^1.2.1"
+                "drupal/core": "^9.2 || ^10",
+                "fileeye/mimemap": "^2"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1637954244",
+                    "version": "8.x-1.3",
+                    "datestamp": "1663598448",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5036,16 +5036,16 @@
         },
         {
             "name": "fileeye/mimemap",
-            "version": "1.2.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FileEye/MimeMap.git",
-                "reference": "4ceb1162e179b2e74683f3229543225db56798f1"
+                "reference": "24144b7dc84168e14e4fc893d654c4fb40628346"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FileEye/MimeMap/zipball/4ceb1162e179b2e74683f3229543225db56798f1",
-                "reference": "4ceb1162e179b2e74683f3229543225db56798f1",
+                "url": "https://api.github.com/repos/FileEye/MimeMap/zipball/24144b7dc84168e14e4fc893d654c4fb40628346",
+                "reference": "24144b7dc84168e14e4fc893d654c4fb40628346",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5055,18 +5055,20 @@
                 ]
             },
             "require": {
-                "composer-runtime-api": "^2.0.0",
-                "php": ">=5.6"
+                "php": ">=7.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5 | ^6 | ^7 | ^8 | ^9",
-                "sebastian/comparator": "*",
-                "sebastian/diff": "*",
-                "squizlabs/php_codesniffer": "*",
-                "symfony/console": "*",
-                "symfony/filesystem": "*",
-                "symfony/var-dumper": "*",
-                "symfony/yaml": "*"
+                "composer-runtime-api": "^2.0.0",
+                "phpstan/phpstan": "^1.2",
+                "phpunit/phpunit": "^9",
+                "sebastian/comparator": ">=4",
+                "sebastian/diff": ">=4",
+                "squizlabs/php_codesniffer": ">=3.6",
+                "symfony/console": ">=5.4",
+                "symfony/filesystem": ">=5.4",
+                "symfony/var-dumper": ">=5.4",
+                "symfony/yaml": ">=5.4",
+                "vimeo/psalm": "^4.23"
             },
             "bin": [
                 "bin/fileeye-mimemap"
@@ -5074,7 +5076,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -5096,7 +5098,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FileEye/MimeMap/issues",
-                "source": "https://github.com/FileEye/MimeMap/tree/1.2.1"
+                "source": "https://github.com/FileEye/MimeMap/tree/2.0.0"
             },
             "transport-options": {
                 "ssl": {
@@ -5104,7 +5106,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2021-11-22T13:10:38+00:00"
+            "time": "2022-07-17T13:00:20+00:00"
         },
         {
             "name": "google/recaptcha",
