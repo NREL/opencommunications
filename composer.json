@@ -54,7 +54,7 @@
         "drupal/google_tag": "^1.4",
         "drupal/honeypot": "^2.0",
         "drupal/image_widget_crop": "^2.3",
-        "drupal/imagemagick": "^3.3",
+        "drupal/imagemagick": "^3.4",
         "drupal/memcache": "^2.3",
         "drupal/metatag": "^1.17",
         "drupal/module_filter": "^3.2",
@@ -66,12 +66,12 @@
         "drupal/security_review": "1.0-alpha2",
         "drupal/ses_mailer": "1.x-dev",
         "drupal/smtp": "^1.0",
-        "drupal/sophron": "^1.2",
+        "drupal/sophron": "^1.3",
         "drupal/username_enumeration_prevention": "^1.2",
         "drupal/video_embed_media": "^2.4",
         "drupal/webform": "^6.0",
         "drush/drush": "^10.6",
-        "fileeye/mimemap": "1.2.1",
+        "fileeye/mimemap": "2.0",
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {
@@ -150,9 +150,6 @@
         "patches": {
             "drupal/core": {
                 "Views does not create parent local task for a default local task - https://www.drupal.org/project/drupal/issues/2804195": "https://www.drupal.org/files/issues/2018-04-03/2804195-54.patch"
-            },
-            "drupal/password_policy": {
-                "Field field_last_password_reset is unknown while importing configuration on site without password_policy activated - https://www.drupal.org/project/password_policy/issues/2771129": "https://www.drupal.org/files/issues/2021-07-05/password_policy_field_last_password_reset_unknown_error_2771129-130.patch"
             }
         }
     }
