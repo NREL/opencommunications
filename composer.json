@@ -63,7 +63,7 @@
         "drupal/pathauto": "^1.8",
         "drupal/recaptcha": "^3.0",
         "drupal/seckit": "^2.0",
-        "drupal/security_review": "1.0-alpha2",
+        "drupal/security_review": "2.0",
         "drupal/ses_mailer": "1.x-dev",
         "drupal/smtp": "^1.0",
         "drupal/sophron": "^1.3",
