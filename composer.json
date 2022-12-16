@@ -150,9 +150,6 @@
         "patches": {
             "drupal/advagg": {
                 "https://www.drupal.org/project/advagg/issues/3310388: Fix error in CkEditor": "https://www.drupal.org/files/issues/2022-09-19/3310388-2.patch"
-            },
-            "drupal/core": {
-                "https://www.drupal.org/project/drupal/issues/2804195: Views does not create parent local task for a default local task": "https://www.drupal.org/files/issues/2018-04-03/2804195-54.patch"
             }
         }
     }
