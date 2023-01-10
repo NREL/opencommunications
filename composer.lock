@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5bfb1aa88bd9907c144d97faebe065d",
+    "content-hash": "ac635181a29e262b336d163c638f4015",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -134,16 +134,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.253.3",
+            "version": "3.254.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7e66338fc6aedd5fa53b268ee30d8f6e4a568147"
+                "reference": "c020b283360bd802ee24959ffb63d70603f8b408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7e66338fc6aedd5fa53b268ee30d8f6e4a568147",
-                "reference": "7e66338fc6aedd5fa53b268ee30d8f6e4a568147",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c020b283360bd802ee24959ffb63d70603f8b408",
+                "reference": "c020b283360bd802ee24959ffb63d70603f8b408",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -228,7 +228,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.253.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.254.1"
             },
             "transport-options": {
                 "ssl": {
@@ -236,7 +236,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2022-12-15T19:26:05+00:00"
+            "time": "2022-12-20T19:28:05+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -2069,16 +2069,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.5.0",
+            "version": "9.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "f56525999dba655b4fc867df95edf8727f8b8624"
+                "reference": "083636264b027984694eb6d1e592f148ec24c637"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/f56525999dba655b4fc867df95edf8727f8b8624",
-                "reference": "f56525999dba655b4fc867df95edf8727f8b8624",
+                "url": "https://api.github.com/repos/drupal/core/zipball/083636264b027984694eb6d1e592f148ec24c637",
+                "reference": "083636264b027984694eb6d1e592f148ec24c637",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2236,7 +2236,7 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.5.0"
+                "source": "https://github.com/drupal/core/tree/9.5.1"
             },
             "transport-options": {
                 "ssl": {
@@ -2244,7 +2244,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2022-12-15T14:33:38+00:00"
+            "time": "2023-01-04T15:53:28+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2363,16 +2363,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.5.0",
+            "version": "9.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "db501d834a042f2bde349a8fc49b8364db99790b"
+                "reference": "9004418593163c787ff9057e31cf76063dd282dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/db501d834a042f2bde349a8fc49b8364db99790b",
-                "reference": "db501d834a042f2bde349a8fc49b8364db99790b",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/9004418593163c787ff9057e31cf76063dd282dc",
+                "reference": "9004418593163c787ff9057e31cf76063dd282dc",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2387,7 +2387,7 @@
                 "doctrine/annotations": "~1.13.3",
                 "doctrine/lexer": "~1.2.3",
                 "doctrine/reflection": "~1.2.3",
-                "drupal/core": "9.5.0",
+                "drupal/core": "9.5.1",
                 "egulias/email-validator": "~3.2.1",
                 "guzzlehttp/guzzle": "~6.5.8",
                 "guzzlehttp/promises": "~1.5.2",
@@ -2436,7 +2436,7 @@
                 "symfony/validator": "~v4.4.48",
                 "symfony/var-dumper": "~v5.4.14",
                 "symfony/yaml": "~v4.4.45",
-                "twig/twig": "~v2.15.3",
+                "twig/twig": "~v2.15.4",
                 "typo3/phar-stream-wrapper": "~v3.1.7"
             },
             "conflict": {
@@ -2449,7 +2449,7 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.5.0"
+                "source": "https://github.com/drupal/core-recommended/tree/9.5.1"
             },
             "transport-options": {
                 "ssl": {
@@ -2457,7 +2457,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2022-12-15T14:33:38+00:00"
+            "time": "2023-01-04T15:53:28+00:00"
         },
         {
             "name": "drupal/crop",
@@ -3602,17 +3602,17 @@
         },
         {
             "name": "drupal/module_filter",
-            "version": "3.2.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/module_filter.git",
-                "reference": "8.x-3.2"
+                "reference": "8.x-3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/module_filter-8.x-3.2.zip",
-                "reference": "8.x-3.2",
-                "shasum": "b5c1a5141da392340232a1ad0934b921b862e1f4",
+                "url": "https://ftp.drupal.org/files/projects/module_filter-8.x-3.4.zip",
+                "reference": "8.x-3.4",
+                "shasum": "eb506728a4156837bd2d18918563d92853f149a4",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -3626,8 +3626,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.2",
-                    "datestamp": "1614918371",
+                    "version": "8.x-3.4",
+                    "datestamp": "1671484800",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3636,7 +3636,7 @@
             },
             "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -3646,6 +3646,10 @@
                 {
                     "name": "greenSkin",
                     "homepage": "https://www.drupal.org/user/173855"
+                },
+                {
+                    "name": "smustgrave",
+                    "homepage": "https://www.drupal.org/user/3252890"
                 }
             ],
             "description": "Filter the modules list.",
@@ -4504,17 +4508,17 @@
         },
         {
             "name": "drupal/video_embed_field",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/video_embed_field.git",
-                "reference": "8.x-2.4"
+                "reference": "8.x-2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-2.4.zip",
-                "reference": "8.x-2.4",
-                "shasum": "96b14bb93c1bb6a07b84315a4f87367870f8b574",
+                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-2.5.zip",
+                "reference": "8.x-2.5",
+                "shasum": "997ed67b6873e822fe628f87f65bd6da67e7350c",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -4523,17 +4527,18 @@
                 ]
             },
             "require": {
-                "drupal/core": "^8.8 || ^9"
+                "drupal/core": "^9.2 || ^10"
             },
             "require-dev": {
-                "drupal/colorbox": "^1.0",
+                "drupal/ckeditor": "^1",
+                "drupal/colorbox": "^2",
                 "drupal/video_embed_media": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.4",
-                    "datestamp": "1587686284",
+                    "version": "8.x-2.5",
+                    "datestamp": "1671413311",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4542,12 +4547,12 @@
             },
             "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
+                    "name": "abhinesh",
+                    "homepage": "https://www.drupal.org/user/3645979"
                 },
                 {
                     "name": "jec006",
@@ -4556,6 +4561,10 @@
                 {
                     "name": "plopesc",
                     "homepage": "https://www.drupal.org/user/282415"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
                 }
             ],
             "description": "A pluggable field type for storing videos from external video hosts such as Vimeo and YouTube.",
@@ -4572,16 +4581,16 @@
         },
         {
             "name": "drupal/video_embed_media",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "require": {
-                "drupal/core": "^8.8 || ^9",
-                "drupal/video_embed_field": "self.version"
+                "drupal/core": "^9.2 || ^10",
+                "drupal/video_embed_field": "*"
             },
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.4",
-                    "datestamp": "1587686284",
+                    "version": "8.x-2.5",
+                    "datestamp": "1671413311",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4594,8 +4603,8 @@
             ],
             "authors": [
                 {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
+                    "name": "abhinesh",
+                    "homepage": "https://www.drupal.org/user/3645979"
                 },
                 {
                     "name": "jec006",
@@ -4604,6 +4613,10 @@
                 {
                     "name": "plopesc",
                     "homepage": "https://www.drupal.org/user/282415"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
                 }
             ],
             "description": "Integrates video_embed_field with the Media module, creating a new media type tailored to display embedded videos. Useful for websites which are using the media suite of modules.",
@@ -10329,16 +10342,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.15.3",
+            "version": "v2.15.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ab402673db8746cb3a4c46f3869d6253699f614a"
+                "reference": "3e059001d6d597dd50ea7c74dd2464b4adea48d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ab402673db8746cb3a4c46f3869d6253699f614a",
-                "reference": "ab402673db8746cb3a4c46f3869d6253699f614a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e059001d6d597dd50ea7c74dd2464b4adea48d3",
+                "reference": "3e059001d6d597dd50ea7c74dd2464b4adea48d3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -10399,7 +10412,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.15.3"
+                "source": "https://github.com/twigphp/Twig/tree/v2.15.4"
             },
             "funding": [
                 {
@@ -10417,7 +10430,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2022-09-28T08:40:08+00:00"
+            "time": "2022-12-27T12:26:20+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",
@@ -10881,16 +10894,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "d87426f07dd66f97cfdcf5210925e483b6c993b5"
+                "reference": "b44d128311af55275dbed6a4558ca59a2b9f9387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/d87426f07dd66f97cfdcf5210925e483b6c993b5",
-                "reference": "d87426f07dd66f97cfdcf5210925e483b6c993b5",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/b44d128311af55275dbed6a4558ca59a2b9f9387",
+                "reference": "b44d128311af55275dbed6a4558ca59a2b9f9387",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -10905,20 +10918,18 @@
                 "psr/cache": "^1.0 || ^2.0 || ^3.0"
             },
             "conflict": {
-                "doctrine/annotations": "<1.7 || >=2.0",
                 "doctrine/common": "<2.10"
             },
             "require-dev": {
                 "composer/package-versions-deprecated": "^1.11",
-                "doctrine/annotations": "^1.7",
-                "doctrine/coding-standard": "^10",
+                "doctrine/coding-standard": "^11",
                 "doctrine/common": "^3.0",
-                "phpstan/phpstan": "1.8.8",
+                "phpstan/phpstan": "1.9.4",
                 "phpstan/phpstan-phpunit": "^1",
                 "phpstan/phpstan-strict-rules": "^1.1",
                 "phpunit/phpunit": "^8.5 || ^9.5",
                 "symfony/cache": "^4.4 || ^5.4 || ^6.0",
-                "vimeo/psalm": "4.29.0"
+                "vimeo/psalm": "4.30.0 || 5.3.0"
             },
             "type": "library",
             "autoload": {
@@ -10967,7 +10978,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/persistence/issues",
-                "source": "https://github.com/doctrine/persistence/tree/3.1.1"
+                "source": "https://github.com/doctrine/persistence/tree/3.1.2"
             },
             "funding": [
                 {
@@ -10989,7 +11000,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2022-12-13T21:21:05+00:00"
+            "time": "2022-12-19T13:58:18+00:00"
         },
         {
             "name": "drupal/devel",
