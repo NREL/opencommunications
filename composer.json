@@ -32,8 +32,7 @@
                 }
             }
         },
-        "packagist.org": false,
-        "packages.drupal.org": false
+        "packagist.org": false
     },
     "require": {
         "composer/installers": "^1.9",
@@ -44,7 +43,7 @@
         "drupal/bootstrap_layouts": "^5.2",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
-        "drupal/core-recommended": "9.5.1",
+        "drupal/core-recommended": "^9.5",
         "drupal/ctools": "^3.10",
         "drupal/embed": "^1.4",
         "drupal/entity_browser": "^2.5",
