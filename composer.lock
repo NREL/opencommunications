@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "300b22069a98f3d75922bb34e6de2f9b",
+    "content-hash": "7e74c037c19af363458f935a14a67f8c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4841,52 +4841,6 @@
                     "verify_peer": false,
                     "allow_self_signed": true
                 }
-            }
-        },
-        {
-            "name": "drupal/video_embed_media",
-            "version": "2.5.0",
-            "require": {
-                "drupal/core": "^9.2 || ^10",
-                "drupal/video_embed_field": "*"
-            },
-            "type": "metapackage",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-2.5",
-                    "datestamp": "1671413311",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "abhinesh",
-                    "homepage": "https://www.drupal.org/user/3645979"
-                },
-                {
-                    "name": "jec006",
-                    "homepage": "https://www.drupal.org/user/855980"
-                },
-                {
-                    "name": "plopesc",
-                    "homepage": "https://www.drupal.org/user/282415"
-                },
-                {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
-                }
-            ],
-            "description": "Integrates video_embed_field with the Media module, creating a new media type tailored to display embedded videos. Useful for websites which are using the media suite of modules.",
-            "homepage": "https://www.drupal.org/project/video_embed_field",
-            "support": {
-                "source": "https://git.drupalcode.org/project/video_embed_field"
             }
         },
         {
