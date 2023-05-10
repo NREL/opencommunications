@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed283ba87edc53b565eb0e0a728d1f7e",
+    "content-hash": "c87e26ff358561e5eae945ac7fc494eb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -138,16 +138,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.269.5",
+            "version": "3.269.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "66a1f27159a92f1a6f6b0916e714ca68c23309b1"
+                "reference": "8b571e9caf4f6f984d95149f4be73275ff86bb55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/66a1f27159a92f1a6f6b0916e714ca68c23309b1",
-                "reference": "66a1f27159a92f1a6f6b0916e714ca68c23309b1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8b571e9caf4f6f984d95149f4be73275ff86bb55",
+                "reference": "8b571e9caf4f6f984d95149f4be73275ff86bb55",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -233,7 +233,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.269.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.269.10"
             },
             "transport-options": {
                 "ssl": {
@@ -241,7 +241,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2023-05-03T18:27:52+00:00"
+            "time": "2023-05-10T18:20:01+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -1645,17 +1645,16 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "3.3.2",
+            "version": "dev-3.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/admin_toolbar.git",
-                "reference": "3.3.2"
+                "reference": "07363c8223a7c0f88952627d2e821ca871adf09b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.3.2.zip",
-                "reference": "3.3.2",
-                "shasum": "edb5d281e4940a655e706cfb9a0b367e8d37cbdb",
+                "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/drupal/admin_toolbar/dev-3.x/07363c8223a7c0f88952627d2e821ca871adf09b.zip",
+                "reference": "07363c8223a7c0f88952627d2e821ca871adf09b",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -1671,12 +1670,15 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
                 "drupal": {
-                    "version": "3.3.2",
-                    "datestamp": "1683055364",
+                    "version": "3.3.2+0-dev",
+                    "datestamp": "1683055286",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
