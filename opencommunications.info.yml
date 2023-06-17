@@ -1,6 +1,6 @@
 name: 'opencommunications'
 type: profile
-core_version_requirement: '^9'
+core_version_requirement: ^9 || ^10
 description: 'Opencommunications profile - used as the installation profile for NREL Communications Drupal sites'
 # Optional: Declare your installation profile as a distribution
 # This will make the installer auto-select this installation profile.
