@@ -156,21 +156,14 @@
             "drupal/password_policy": {
                 "https://www.drupal.org/project/password_policy/issues/3362201: Drupal 10 compatibility fixes for Password Policy": "https://www.drupal.org/files/issues/2023-05-23/password_policy-d10.patch",
                 "https://www.drupal.org/project/password_policy/issues/3380929: Expired users log in, css and js will not be loaded": "https://www.drupal.org/files/issues/2023-08-14/3380929-2.patch",
-                "https://www.drupal.org/project/password_policy/issues/3366875: Multibyte support for PasswordLength constraint": "patches/3366875-password-policy-length.patch",
                 "https://www.drupal.org/project/password_policy/issues/3351119: Delay warning message has extra spaces": "https://www.drupal.org/files/issues/2023-03-29/password_policy_delay_warning_msg_typo.patch",
                 "https://www.drupal.org/project/password_policy/issues/3240363: Module to provide configurable mail body and subject content for reset and pending password emails.": "https://www.drupal.org/files/issues/2022-08-18/3240363-39.patch",
-                "https://www.drupal.org/project/password_policy/issues/3196224: Password policy keeps on telling 'Your password has expired, please update it, even if the password is changed.": "patches/3196224-password-policy-infinite-loop.patch",
-                "https://www.drupal.org/project/password_policy/issues/3347789: Fix the issues reported by phpcs": "patches/3347789-password-policy-fix-phpcs-issues.patch",
                 "https://www.drupal.org/project/password_policy/issues/3378720: Existing entities should be updated with the show_policy_table key.": "https://www.drupal.org/files/issues/2023-08-03/password_policy-update-new-key-to-existing-configs-3378720-6.patch"
-            },
-            "drupal/ses_mailer": {
-                "Make SES Mailer D10-compatible": "patches/ses_mailer.patch"
             },
             "drupal/webform": {
                 "https://www.drupal.org/project/webform/issues/3373493: Form title is displaying though 'Display title on shared form' is unchecked": "https://www.drupal.org/files/issues/2023-07-20/3373493-4.patch",
                 "https://www.drupal.org/project/webform/issues/3380639: The select an element interface has duplicate icons": "https://www.drupal.org/files/issues/2023-08-11/the-select-an-element-interface-has-duplicate-icons-3380639-4.patch",
-                "https://www.drupal.org/project/webform/issues/3382545: allowtransparency and frameborder are obsolete": "https://www.drupal.org/files/issues/2023-08-22/3382545-remove-obsolete-attributes.patch",
-                "https://www.drupal.org/project/webform/issues/3373567: data-once='webform-details-summary-save' leaks into BEF exposed filter secondary details element": "patches/3373567-leaks-into-bef.patch"
+                "https://www.drupal.org/project/webform/issues/3382545: allowtransparency and frameborder are obsolete": "https://www.drupal.org/files/issues/2023-08-22/3382545-remove-obsolete-attributes.patch"
             }
         }
     }
