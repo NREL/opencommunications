@@ -163,6 +163,9 @@
                 "https://www.drupal.org/project/password_policy/issues/3347789: Fix the issues reported by phpcs": "patches/3347789-password-policy-fix-phpcs-issues.patch",
                 "https://www.drupal.org/project/password_policy/issues/3378720: Existing entities should be updated with the show_policy_table key.": "https://www.drupal.org/files/issues/2023-08-03/password_policy-update-new-key-to-existing-configs-3378720-6.patch"
             },
+            "drupal/ses_mailer": {
+                "Make SES Mailer D10-compatible": "patches/ses_mailer.patch"
+            },
             "drupal/webform": {
                 "https://www.drupal.org/project/webform/issues/3373493: Form title is displaying though 'Display title on shared form' is unchecked": "https://www.drupal.org/files/issues/2023-07-20/3373493-4.patch",
                 "https://www.drupal.org/project/webform/issues/3380639: The select an element interface has duplicate icons": "https://www.drupal.org/files/issues/2023-08-11/the-select-an-element-interface-has-duplicate-icons-3380639-4.patch",

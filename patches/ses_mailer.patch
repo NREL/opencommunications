@@ -1,0 +1,10 @@
+diff --git a/ses_mailer.info.yml b/ses_mailer.info.yml
+index 29871363..7c1d4333 100644
+--- a/ses_mailer.info.yml
++++ b/ses_mailer.info.yml
+@@ -3,4 +3,4 @@ type: module
+ description: A Drupal mailer integration with AWS Simple Email Service
+ package: Other
+ core: 8.x
+-core_version_requirement: ^8 || ^9
++core_version_requirement: ^8 || ^9 || ^10
