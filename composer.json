@@ -71,7 +71,7 @@
         "drupal/stage_file_proxy": "^2.0",
         "drupal/username_enumeration_prevention": "^1.2",
         "drupal/video_embed_field": "^2.5",
-        "drupal/webform": "^6.1",
+        "drupal/webform": "6.2.0-beta6",
         "drush/drush": "^10.6",
         "fileeye/mimemap": "^2.0",
         "phpmailer/phpmailer": "^6.5"
@@ -152,6 +152,12 @@
         "patches": {
             "drupal/advagg": {
                 "https://www.drupal.org/project/advagg/issues/3310388: Fix error in CkEditor": "https://www.drupal.org/files/issues/2022-09-19/3310388-2.patch"
+            },
+            "drupal/webform": {
+                "https://www.drupal.org/project/webform/issues/3373493: Form title is displaying though 'Display title on shared form' is unchecked": "https://www.drupal.org/files/issues/2023-07-20/3373493-4.patch",
+                "https://www.drupal.org/project/webform/issues/3380639: The select an element interface has duplicate icons": "https://www.drupal.org/files/issues/2023-08-11/the-select-an-element-interface-has-duplicate-icons-3380639-4.patch",
+                "https://www.drupal.org/project/webform/issues/3382545: allowtransparency and frameborder are obsolete": "https://www.drupal.org/files/issues/2023-08-22/3382545-remove-obsolete-attributes.patch",
+                "https://www.drupal.org/project/webform/issues/3373567: data-once='webform-details-summary-save' leaks into BEF exposed filter secondary details element": "patches/3373567-leaks-into-bef.patch"
             }
         }
     }
