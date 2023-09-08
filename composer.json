@@ -122,6 +122,7 @@
             }
         },
         "enable-patching": true,
+        "composer-exit-on-patch-failure": true,
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"
