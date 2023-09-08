@@ -55,6 +55,7 @@
         "drupal/honeypot": "^2.0",
         "drupal/image_widget_crop": "^2.3",
         "drupal/imagemagick": "^3.3",
+        "drupal/log_stdout": "^1.3",
         "drupal/memcache": "^2.3",
         "drupal/metatag": "^1.17",
         "drupal/module_filter": "^4.0",
@@ -64,6 +65,7 @@
         "drupal/recaptcha": "^3.0",
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
+        "drupal/ses_mailer": "1.x-dev",
         "drupal/smtp": "^1.0",
         "drupal/sophron": "^1.3",
         "drupal/stage_file_proxy": "^2.0",
@@ -165,7 +167,7 @@
                 "https://www.drupal.org/project/password_policy/issues/3378720: Existing entities should be updated with the show_policy_table key.": "https://www.drupal.org/files/issues/2023-08-03/password_policy-update-new-key-to-existing-configs-3378720-6.patch"
             },
             "drupal/ses_mailer": {
-                "https://www.drupal.org/project/ses_mailer/issues/3385960: Drupal 10 compatibilite": "https://www.drupal.org/files/issues/2023-09-07/ses-mailer-d10-compatibility-3385960-5.patch"
+                "https://www.drupal.org/project/ses_mailer/issues/3385960: Drupal 10 compatibilitye": "https://www.drupal.org/files/issues/2023-09-07/ses-mailer-d10-compatibility-3385960-5.patch"
             },
              "drupal/webform": {
                 "https://www.drupal.org/project/webform/issues/3373493: Form title is displaying though 'Display title on shared form' is unchecked": "https://www.drupal.org/files/issues/2023-07-20/3373493-4.patch",
