@@ -48,7 +48,7 @@
         "drupal/embed": "^1.4",
         "drupal/entity_browser": "^2.5",
         "drupal/entity_embed": "^1.1",
-        "drupal/entity_reference_revisions": "^1.9",
+        "drupal/entity_reference_revisions": "^1.10",
         "drupal/field_group": "^3.2",
         "drupal/google_tag": "^1.4",
         "drupal/health_check": "^3.0",
