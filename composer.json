@@ -74,6 +74,7 @@
         "drupal/webform": "6.2.0-beta6",
         "drush/drush": "^11.0",
         "fileeye/mimemap": "^2.0",
+        "mglaman/composer-drupal-lenient": "^1.0",
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {
@@ -86,7 +87,8 @@
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true
+            "drupal/core-project-message": true,
+            "mglaman/composer-drupal-lenient": true
         }
     },
     "conflict": {
@@ -150,6 +152,9 @@
             ]
         },
         "patches": {
+        },
+        "drupal-lenient": {
+            "allowed-list": ["drupal/log_stdout", "drupal/ses_mailer"]
         }
     }
 }
