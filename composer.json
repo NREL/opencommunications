@@ -160,7 +160,7 @@
                 "https://www.drupal.org/project/password_policy/issues/3362201: Drupal 10 compatibility fixes for Password Policy": "https://www.drupal.org/files/issues/2023-05-23/password_policy-d10.patch",
                 "https://www.drupal.org/project/password_policy/issues/3380929: Expired users log in, css and js will not be loaded": "https://www.drupal.org/files/issues/2023-08-14/3380929-2.patch",
                 "https://www.drupal.org/project/password_policy/issues/3351119: Delay warning message has extra spaces": "https://www.drupal.org/files/issues/2023-03-29/password_policy_delay_warning_msg_typo.patch",
-                "https://www.drupal.org/project/password_policy/issues/3240363: Module to provide configurable mail body and subject content for reset and pending password emails.": "patches/2023_09_21_3240363-40.patch",
+                "https://www.drupal.org/project/password_policy/issues/3240363: Module to provide configurable mail body and subject content for reset and pending password emails.": "https://www.drupal.org/files/issues/2023-09-21/2023_09_21_3240363-40.patch",
                 "https://www.drupal.org/project/password_policy/issues/3378720: Existing entities should be updated with the show_policy_table key.": "https://www.drupal.org/files/issues/2023-08-03/password_policy-update-new-key-to-existing-configs-3378720-6.patch"
             },
             "drupal/ses_mailer": {
