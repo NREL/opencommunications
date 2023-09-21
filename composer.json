@@ -173,7 +173,7 @@
             }
         },
         "drupal-lenient": {
-            "allowed-list": ["drupal/log_stdout", "drupal/ses_mailer"]
+            "allowed-list": ["drupal/ses_mailer"]
         }
     }
 }
