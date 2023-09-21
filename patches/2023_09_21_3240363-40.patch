@@ -1,0 +1,268 @@
+diff --git a/config/install/password_policy.email.yml b/config/install/password_policy.email.yml
+new file mode 100644
+index 0000000..bf6a0d7
+--- /dev/null
++++ b/config/install/password_policy.email.yml
+@@ -0,0 +1,6 @@
++password_expired_mail:
++  body: 'Your password has expired. Please visit the following link to reset your password: [site:login-url]'
++  subject: 'You need to reset your password.'
++password_to_expire_mail:
++  body: 'Your password will expire in less than [password-policy:pending-days] days. Please visit the following link to reset your password: [site:login-url]'
++  subject: 'Your password will expire soon.'
+diff --git a/config/schema/password_policy.schema.yml b/config/schema/password_policy.schema.yml
+index f08220a..26d9244 100644
+--- a/config/schema/password_policy.schema.yml
++++ b/config/schema/password_policy.schema.yml
+@@ -57,3 +57,26 @@ password_policy.settings:
+     cron_threshold:
+       type: integer
+       label: 'Cron threshold'
++
++password_policy.email:
++  type: config_object
++  label: 'Password to expire'
++  mapping:
++    password_expired_mail:
++      type: config_object
++      mapping:
++        subject:
++          type: string
++          label: 'Subject'
++        body:
++          type: text
++          label: 'Body'
++    password_to_expire_mail:
++      type: config_object
++      mapping:
++        subject:
++          type: string
++          label: 'Subject'
++        body:
++          type: text
++          label: 'Body'
+diff --git a/password_policy.install b/password_policy.install
+index d761ccf..86b009b 100644
+--- a/password_policy.install
++++ b/password_policy.install
+@@ -8,6 +8,7 @@
+ use Drupal\Core\Entity\Sql\SqlContentEntityStorage;
+ use Drupal\Core\Language\LanguageInterface;
+ use Drupal\datetime\Plugin\Field\FieldType\DateTimeItemInterface;
++use Symfony\Component\Yaml\Yaml;
+ 
+ /**
+  * Implements hook_install().
+@@ -177,3 +178,12 @@ function password_policy_update_8304() {
+     $query->execute();
+   }
+ }
++
++/**
++ * Import yaml config of `password_policy.email`.
++ */
++function password_policy_update_8305() {
++    $config_path = \Drupal::service('extension.list.module')->getPath('password_policy') . '/config/install/password_policy.email.yml';
++    $data = Yaml::parse(file_get_contents($config_path));
++    \Drupal::configFactory()->getEditable('password_policy.email')->setData($data)->save(TRUE);
++  }
+\ No newline at end of file
+diff --git a/password_policy.module b/password_policy.module
+index 87f1502..811332a 100644
+--- a/password_policy.module
++++ b/password_policy.module
+@@ -13,6 +13,8 @@ use Drupal\user\UserInterface;
+ use Drupal\Core\Routing\RouteMatchInterface;
+ use Drupal\datetime\Plugin\Field\FieldType\DateTimeItemInterface;
+ use Drupal\Core\Url;
++use Drupal\Component\Render\PlainTextOutput;
++use Drupal\Core\Render\BubbleableMetadata;
+ 
+ /**
+  * Implements hook_theme().
+@@ -398,6 +400,9 @@ function password_policy_cron() {
+           ->loadMultiple($valid_list);
+       }
+ 
++      $mail_config = \Drupal::config('password_policy.email');
++      $token_service = \Drupal::token();
++
+       // Expire passwords.
+       /** @var \Drupal\user\UserInterface $user */
+       foreach ($users as $user) {
+@@ -411,10 +416,11 @@ function password_policy_cron() {
+           $module = 'password_policy';
+           $key = 'reset_password';
+           $to = $user->getEmail();
+-          $link = Url::fromRoute('user.login', [], ['absolute' => TRUE])->toString();
+-          $params['message'] = t('Your password has expired. Please visit the following link to reset your password: :link',
+-            [':link' => $link]);
++          $variables = ['user' => $user];
+           $langcode = $user->getPreferredLangcode();
++          $token_options = ['langcode' => $langcode, 'callback' => 'user_mail_tokens', 'clear' => TRUE];
++          $params['subject'] = PlainTextOutput::renderFromHtml($token_service->replace($mail_config->get('password_expired_mail.subject'), $variables, $token_options));
++          $params['message'] = $token_service->replace($mail_config->get('password_expired_mail.body'), $variables, $token_options);
+           $send = TRUE;
+           $mailManager->mail($module, $key, $to, $langcode, $params, NULL, $send);
+         }
+@@ -466,10 +472,13 @@ function password_policy_cron() {
+             $module = 'password_policy';
+             $key = 'pending_password';
+             $to = $user->getEmail();
+-            $link = Url::fromRoute('user.login', [], ['absolute' => TRUE])->toString();
+-            $params['message'] = t('Your password will expire in less than :pending days. Please visit the following link to reset your password: :link',
+-              [':link' => $link, ':pending' => $pending_day]);
++            $variables = ['user' => $user];
+             $langcode = $user->getPreferredLangcode();
++            $params['subject'] = $mail_config->get('password_to_expire_mail.subject');
++            $params['message'] = $mail_config->get('password_to_expire_mail.body');
++            $token_options = ['langcode' => $langcode, 'password-policy:pending-days' => $pending_day, 'callback' => 'user_mail_tokens', 'clear' => TRUE];
++            $params['subject'] = PlainTextOutput::renderFromHtml($token_service->replace($mail_config->get('password_to_expire_mail.subject'), $variables, $token_options));
++            $params['message'] = $token_service->replace($mail_config->get('password_to_expire_mail.body'), $variables, $token_options);
+             $send = TRUE;
+             $mailManager->mail($module, $key, $to, $langcode, $params, NULL, $send);
+           }
+@@ -486,13 +495,13 @@ function password_policy_mail($key, &$message, $params) {
+   switch ($key) {
+     case 'reset_password':
+       $message['from'] = \Drupal::config('system.site')->get('mail');
+-      $message['subject'] = t('You need to reset your password.');
++      $message['subject'] = $params['subject'];
+       $message['body'][] = $params['message'];
+       break;
+ 
+     case 'pending_password':
+       $message['from'] = \Drupal::config('system.site')->get('mail');
+-      $message['subject'] = t('Your password will expire soon.');
++      $message['subject'] = $params['subject'];
+       $message['body'][] = $params['message'];
+       break;
+   }
+@@ -534,3 +543,97 @@ function password_policy_help($route_name, RouteMatchInterface $route_match) {
+   }
+   return NULL;
+ }
++
++/**
++ * Implements hook_form_FORM_ID_alter() for user_admin_settings().
++ */
++function password_policy_form_user_admin_settings_alter(&$form, FormStateInterface $form_state) {
++  $mail_config = \Drupal::config('password_policy.email');
++
++  $email_token_help = t('The list of available tokens that can be used in e-mails is provided below.');
++
++  $form['password_expired_mail'] = [
++    '#type' => 'details',
++    '#title' => t('Password expired'),
++    '#description' => t('Edit the expired email messages sent to users, when their password has expired.') . ' ' . $email_token_help,
++    '#group' => 'email',
++  ];
++  $form['password_expired_mail']['password_expired_mail_subject'] = [
++    '#type' => 'textfield',
++    '#title' => t('Subject'),
++    '#default_value' => $mail_config->get('password_expired_mail.subject'),
++    '#maxlength' => 180,
++  ];
++  $form['password_expired_mail']['password_expired_mail_body'] = [
++    '#type' => 'textarea',
++    '#title' => t('Body'),
++    '#default_value' => $mail_config->get('password_expired_mail.body'),
++    '#rows' => 8,
++  ];
++
++  $form['password_to_expire_mail'] = [
++    '#type' => 'details',
++    '#title' => t('Password to expire'),
++    '#description' => t('Edit the to be expired email messages sent to users, when their password is due for expiration.') . ' ' . $email_token_help . ' Additional token supported [password-policy:pending-days].',
++    '#group' => 'email',
++  ];
++  $form['password_to_expire_mail']['password_to_expire_mail_subject'] = [
++    '#type' => 'textfield',
++    '#title' => t('Subject'),
++    '#default_value' => $mail_config->get('password_to_expire_mail.subject'),
++    '#maxlength' => 180,
++  ];
++  $form['password_to_expire_mail']['password_to_expire_mail_body'] = [
++    '#type' => 'textarea',
++    '#title' => t('Body'),
++    '#default_value' => $mail_config->get('password_to_expire_mail.body'),
++    '#rows' => 8,
++  ];
++  $form['#submit'][] = '_password_policy_form_email_settings_submit';
++}
++
++/**
++ * Custom form submit to store additional email settings information.
++ */
++function _password_policy_form_email_settings_submit(array $form, FormStateInterface $form_state) {
++  $mail_config = \Drupal::getContainer()->get('config.factory')->getEditable('password_policy.email');
++  $mail_config
++    ->set('password_expired_mail.subject', $form_state->getValue('password_expired_mail_subject'))
++    ->set('password_expired_mail.body', $form_state->getValue('password_expired_mail_body'))
++    ->set('password_to_expire_mail.subject', $form_state->getValue('password_to_expire_mail_subject'))
++    ->set('password_to_expire_mail.body', $form_state->getValue('password_to_expire_mail_body'))
++    ->save();
++  $form_state->unsetValue('password_expired_mail.subject');
++  $form_state->unsetValue('password_expired_mail.body');
++  $form_state->unsetValue('password_to_expire_mail.subject');
++  $form_state->unsetValue('password_to_expire_mail.body');
++}
++
++/**
++ * Implements hook_token_info().
++ */
++function password_policy_token_info() {
++  $info['tokens']['site']['password_policy'] = [
++    'name' => t('password_policy'),
++    'description' => t('Url of the site, no language prefix garanted'),
++  ];
++
++  return $info;
++}
++
++/**
++ * Implements hook_tokens().
++ */
++function password_policy_tokens($type, $tokens, array $data, array $options, BubbleableMetadata $bubbleable_metadata) {
++  $replacements = [];
++
++  foreach ($tokens as $name => $original) {
++    switch ($name) {
++      case 'pending-days':
++        $replacements[$original] = $options[str_replace(["[", "]"], "", $original)];
++        break;
++    }
++  }
++
++  return $replacements;
++}
+diff --git a/tests/src/Functional/PasswordExpiredEmailSendTest.php b/tests/src/Functional/PasswordExpiredEmailSendTest.php
+index 641b49f..f1cb7b5 100644
+--- a/tests/src/Functional/PasswordExpiredEmailSendTest.php
++++ b/tests/src/Functional/PasswordExpiredEmailSendTest.php
+@@ -131,10 +131,10 @@ class PasswordExpiredEmailSendTest extends BrowserTestBase {
+     // Run cron to trigger expiration.
+     $this->cronRun();
+ 
+-    $link = Url::fromRoute('user.login', [], ['absolute' => TRUE])->toString();
++    $link = Url::fromRoute('user.page', [], ['absolute' => TRUE])->toString();
+     $days_left = 5;
+     // Assert mail content.
+-    $this->assertMailString('body', "Your password will expire in less than $days_left days. Please visit the following\n link to reset your password: $link", 1);
++    $this->assertMailString('body', "Your password will expire in less than $days_left days. Please visit the following link to reset your password: $link ", 1);
+ 
+     $this->drupalLogin($this->adminUser);
+     // Set the user reset date to one day before expiration date.
+@@ -147,10 +147,10 @@ class PasswordExpiredEmailSendTest extends BrowserTestBase {
+     // Run cron to trigger expiration.
+     $this->cronRun();
+ 
+-    $link = Url::fromRoute('user.login', [], ['absolute' => TRUE])->toString();
++    $link = Url::fromRoute('user.page', [], ['absolute' => TRUE])->toString();
+     $days_left = 1;
+     // Assert mail content.
+-    $this->assertMailString('body', "Your password will expire in less than $days_left days. Please visit the following\n link to reset your password: $link", 1);
++    $this->assertMailString('body', "Your password will expire in less than $days_left days. Please visit the following link to reset your password: $link ", 1);
+   }
+ 
+ }
