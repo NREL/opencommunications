@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a15b0b77f532de784907c5bbda6bc58",
+    "content-hash": "f1a20edbe117ce625b1dcdc3d1758a92",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5080,17 +5080,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.2.0-beta6",
+            "version": "6.2.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.2.0-beta6"
+                "reference": "6.2.0-rc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.2.0-beta6.zip",
-                "reference": "6.2.0-beta6",
-                "shasum": "b466ad3629c58f45994cbca55ab6bd8baaa4b838",
+                "url": "https://ftp.drupal.org/files/projects/webform-6.2.0-rc1.zip",
+                "reference": "6.2.0-rc1",
+                "shasum": "66dbff946292e7e196c733fc6f8a4b0d63a3d9cc",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -5116,7 +5116,7 @@
                 "drupal/hal": "1 - 2",
                 "drupal/jquery_ui": "1.x-dev",
                 "drupal/jquery_ui_checkboxradio": "2.x-dev",
-                "drupal/jquery_ui_datepicker": "1.x-dev",
+                "drupal/jquery_ui_datepicker": "2.x-dev",
                 "drupal/mailsystem": "4.x-dev",
                 "drupal/metatag": "1.x-dev",
                 "drupal/paragraphs": "1.x-dev",
@@ -5144,11 +5144,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.2.0-beta6",
-                    "datestamp": "1686598812",
+                    "version": "6.2.0-rc1",
+                    "datestamp": "1696976940",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 },
                 "drush": {
@@ -11693,7 +11693,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/advagg": 15,
-        "drupal/ses_mailer": 20
+        "drupal/ses_mailer": 20,
+        "drupal/webform": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
