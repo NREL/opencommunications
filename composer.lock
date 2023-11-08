@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3ba4512e524e3fb8ea13471a0e521ab",
+    "content-hash": "d5eb072206be8da73b1a0e03cba8d25f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -142,16 +142,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.283.16",
+            "version": "3.285.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cb629771356d6a4d12bb030a072b832044440672"
+                "reference": "41c7a9491455f89052cba62c4e4f0c748af51265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cb629771356d6a4d12bb030a072b832044440672",
-                "reference": "cb629771356d6a4d12bb030a072b832044440672",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/41c7a9491455f89052cba62c4e4f0c748af51265",
+                "reference": "41c7a9491455f89052cba62c4e4f0c748af51265",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -237,7 +237,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.16"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.285.0"
             },
             "transport-options": {
                 "ssl": {
@@ -245,7 +245,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2023-10-31T18:21:09+00:00"
+            "time": "2023-11-07T19:33:47+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -1770,17 +1770,17 @@
         },
         {
             "name": "drupal/blazy",
-            "version": "2.21.0",
+            "version": "2.22.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/blazy.git",
-                "reference": "8.x-2.21"
+                "reference": "8.x-2.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/blazy-8.x-2.21.zip",
-                "reference": "8.x-2.21",
-                "shasum": "60ac20ec9eff87ea688ff4c025f28d8fb07b237a",
+                "url": "https://ftp.drupal.org/files/projects/blazy-8.x-2.22.zip",
+                "reference": "8.x-2.22",
+                "shasum": "b1d481c41916c5b3944fda74b4d40501792a19e3",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -1797,8 +1797,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.21",
-                    "datestamp": "1697526367",
+                    "version": "8.x-2.22",
+                    "datestamp": "1699420645",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2740,17 +2740,17 @@
         },
         {
             "name": "drupal/entity_embed",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/entity_embed.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_embed-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "800cb12020d8751d11292018231d93157fc34d4e",
+                "url": "https://ftp.drupal.org/files/projects/entity_embed-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "e74f5fcd5d42e39cda3bd36d7aedcc9fa53585ce",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -2759,8 +2759,8 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9.3 || ^10",
-                "drupal/embed": "^1.5"
+                "drupal/core": "^9.5 || ^10",
+                "drupal/embed": "^1.7"
             },
             "require-dev": {
                 "drupal/ckeditor": "^1",
@@ -2769,8 +2769,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1686251084",
+                    "version": "8.x-1.5",
+                    "datestamp": "1699304348",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
