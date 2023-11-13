@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59fa79b06295f1fe3e9e7fe84d59b094",
+    "content-hash": "80482b25411429d5eba4d9d4c16eee47",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4634,17 +4634,17 @@
         },
         {
             "name": "drupal/sophron",
-            "version": "1.3.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/sophron.git",
-                "reference": "8.x-1.3"
+                "reference": "2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/sophron-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "426dde53813e855317d6f7ef9fd6b104cc8a3e22",
+                "url": "https://ftp.drupal.org/files/projects/sophron-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "ed5d910d6612ea591950b67384cc5ff26c5c7cc9",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -4653,14 +4653,14 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9.2 || ^10",
-                "fileeye/mimemap": "^2"
+                "drupal/core": "^10",
+                "fileeye/mimemap": "^2.0.1"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1663598448",
+                    "version": "2.0.2",
+                    "datestamp": "1699798487",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
