@@ -65,7 +65,6 @@
         "drupal/recaptcha": "^3.0",
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
-        "drupal/ses_mailer": "1.x-dev",
         "drupal/smtp": "^1.0",
         "drupal/sophron": "^2.0.0",
         "drupal/stage_file_proxy": "^2.0",
