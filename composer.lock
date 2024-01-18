@@ -2983,17 +2983,17 @@
         },
         {
             "name": "drupal/file_mdm",
-            "version": "2.6.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/file_mdm.git",
-                "reference": "8.x-2.6"
+                "reference": "3.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/file_mdm-8.x-2.6.zip",
-                "reference": "8.x-2.6",
-                "shasum": "56c7c06107ce6e249b6d644136e6807573efb0e3",
+                "url": "https://ftp.drupal.org/files/projects/file_mdm-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "d6ea077882777619c25b217301dc3d1c10218502",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -3002,7 +3002,7 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9.3 | ^10",
+                "drupal/core": "^10.1",
                 "fileeye/pel": "^0.9.20",
                 "phenx/php-font-lib": "^0.5.4"
             },
@@ -3013,8 +3013,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.6",
-                    "datestamp": "1688489716",
+                    "version": "3.0.0",
+                    "datestamp": "1691421181",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3332,17 +3332,17 @@
         },
         {
             "name": "drupal/imagemagick",
-            "version": "3.4.0",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/imagemagick.git",
-                "reference": "8.x-3.4"
+                "reference": "8.x-3.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/imagemagick-8.x-3.4.zip",
-                "reference": "8.x-3.4",
-                "shasum": "9f07b7db4bba2cb0e4ff004629f8f78242bb7226",
+                "url": "https://ftp.drupal.org/files/projects/imagemagick-8.x-3.6.zip",
+                "reference": "8.x-3.6",
+                "shasum": "b4efc5ff6ab5469475f0ef7242eba0c7eda1c75c",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -3351,15 +3351,15 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9.3 || ^10",
-                "drupal/file_mdm": "^2.5",
-                "drupal/sophron": "^1.2 || ^2"
+                "drupal/core": "^10.1",
+                "drupal/file_mdm": "^3",
+                "drupal/sophron": "^2.0.2"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.4",
-                    "datestamp": "1663947784",
+                    "version": "8.x-3.6",
+                    "datestamp": "1702632545",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6822,16 +6822,16 @@
         },
         {
             "name": "phenx/php-font-lib",
-            "version": "0.5.4",
+            "version": "0.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/php-font-lib.git",
-                "reference": "dd448ad1ce34c63d09baccd05415e361300c35b4"
+                "reference": "671df0f3516252011aa94f9e8e3b3b66199339f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/php-font-lib/zipball/dd448ad1ce34c63d09baccd05415e361300c35b4",
-                "reference": "dd448ad1ce34c63d09baccd05415e361300c35b4",
+                "url": "https://api.github.com/repos/dompdf/php-font-lib/zipball/671df0f3516252011aa94f9e8e3b3b66199339f8",
+                "reference": "671df0f3516252011aa94f9e8e3b3b66199339f8",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6844,7 +6844,7 @@
                 "ext-mbstring": "*"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "^3 || ^4 || ^5"
+                "symfony/phpunit-bridge": "^3 || ^4 || ^5 || ^6"
             },
             "type": "library",
             "autoload": {
@@ -6854,7 +6854,7 @@
             },
             "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
             "license": [
-                "LGPL-3.0"
+                "LGPL-2.1-or-later"
             ],
             "authors": [
                 {
@@ -6866,7 +6866,7 @@
             "homepage": "https://github.com/PhenX/php-font-lib",
             "support": {
                 "issues": "https://github.com/dompdf/php-font-lib/issues",
-                "source": "https://github.com/dompdf/php-font-lib/tree/0.5.4"
+                "source": "https://github.com/dompdf/php-font-lib/tree/0.5.5"
             },
             "transport-options": {
                 "ssl": {
@@ -6874,7 +6874,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2021-12-17T19:44:54+00:00"
+            "time": "2024-01-07T18:13:29+00:00"
         },
         {
             "name": "phootwork/collection",
