@@ -76,6 +76,7 @@
         "drush/drush": "^11.0",
         "fileeye/mimemap": "^2.0",
         "mglaman/composer-drupal-lenient": "^1.0",
+        "nrel/nrel_cyber": "dev-main",
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {
