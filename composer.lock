@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df2bd2d6fcc75afec65dc570c6f34404",
+    "content-hash": "14600f1ff5d3b4c4355ab4e6bf43dfa8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4575,65 +4575,6 @@
             }
         },
         {
-            "name": "drupal/ses_mailer",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/ses_mailer.git",
-                "reference": "97db63ebe729938c3ded08ceeae74fb9ea120546"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/drupal/ses_mailer/dev-1.x/97db63ebe729938c3ded08ceeae74fb9ea120546.zip",
-                "reference": "97db63ebe729938c3ded08ceeae74fb9ea120546",
-                "mirrors": [
-                    {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "aws/aws-sdk-php": "~3.0",
-                "drupal/core": "^8 || ^9 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha3+6-dev",
-                    "datestamp": "1599860487",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "kim.pepper",
-                    "homepage": "https://www.drupal.org/user/370574"
-                }
-            ],
-            "description": "Provides a simple AWS SES mailer implementation.",
-            "homepage": "https://www.drupal.org/project/ses_mailer",
-            "support": {
-                "source": "https://git.drupalcode.org/project/ses_mailer"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            }
-        },
-        {
             "name": "drupal/smtp",
             "version": "1.2.0",
             "source": {
@@ -6676,6 +6617,48 @@
                 }
             },
             "time": "2023-11-06T22:48:24+00:00"
+        },
+        {
+            "name": "nrel/ses_mailer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:NREL/nrel_ses_mailer.git",
+                "reference": "46632571e9d7b0191324f8af16ecf9311be9fade"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NREL/nrel_ses_mailer/zipball/46632571e9d7b0191324f8af16ecf9311be9fade",
+                "reference": "46632571e9d7b0191324f8af16ecf9311be9fade",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "aws/aws-sdk-php": "~3.0"
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a simple AWS SES mailer implementation.",
+            "support": {
+                "source": "https://github.com/NREL/nrel_ses_mailer/tree/main",
+                "issues": "https://github.com/NREL/nrel_ses_mailer/issues"
+            },
+            "transport-options": {
+                "ssl": {
+                    "verify_peer": false,
+                    "allow_self_signed": true
+                }
+            },
+            "time": "2024-02-12T23:23:50+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -11598,8 +11581,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/advagg": 15,
-        "drupal/ses_mailer": 20,
-        "nrel/nrel_cyber": 20
+        "nrel/nrel_cyber": 20,
+        "nrel/ses_mailer": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
