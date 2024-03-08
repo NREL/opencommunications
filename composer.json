@@ -38,7 +38,6 @@
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
-        "drupal/advagg": "^6.0@alpha",
         "drupal/blazy": "^2.1",
         "drupal/bootstrap_layouts": "^5.2",
         "drupal/core-composer-scaffold": "^10.1",
