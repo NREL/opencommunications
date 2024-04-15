@@ -66,7 +66,6 @@
         "drupal/reroute_email": "^2.2",
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
-        "drupal/ses_mailer": "1.x-dev",
         "drupal/smtp": "^1.0",
         "drupal/sophron": "^2.0.0",
         "drupal/stage_file_proxy": "^2.0",
@@ -76,6 +75,7 @@
         "drush/drush": "^12.4.3",
         "fileeye/mimemap": "^2.0",
         "mglaman/composer-drupal-lenient": "^1.0",
+        "nrel/ses_mailer": "dev-main",
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b295de8e9af2b79705537314fab1c7a6",
+    "content-hash": "3c03a89f7d1d902acf8a603c8968e8b4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -142,16 +142,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.295.4",
+            "version": "3.304.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2372661db989fe4229abd95f4434b37252076d58"
+                "reference": "20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2372661db989fe4229abd95f4434b37252076d58",
-                "reference": "2372661db989fe4229abd95f4434b37252076d58",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386",
+                "reference": "20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -237,7 +237,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.295.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.304.4"
             },
             "transport-options": {
                 "ssl": {
@@ -245,7 +245,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2023-12-29T19:07:49+00:00"
+            "time": "2024-04-12T18:06:45+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -4536,65 +4536,6 @@
             }
         },
         {
-            "name": "drupal/ses_mailer",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/ses_mailer.git",
-                "reference": "97db63ebe729938c3ded08ceeae74fb9ea120546"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/drupal/ses_mailer/dev-1.x/97db63ebe729938c3ded08ceeae74fb9ea120546.zip",
-                "reference": "97db63ebe729938c3ded08ceeae74fb9ea120546",
-                "mirrors": [
-                    {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "aws/aws-sdk-php": "~3.0",
-                "drupal/core": "^8 || ^9 || ^10 || ^11"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha3+6-dev",
-                    "datestamp": "1599860487",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "kim.pepper",
-                    "homepage": "https://www.drupal.org/user/370574"
-                }
-            ],
-            "description": "Provides a simple AWS SES mailer implementation.",
-            "homepage": "https://www.drupal.org/project/ses_mailer",
-            "support": {
-                "source": "https://git.drupalcode.org/project/ses_mailer"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            }
-        },
-        {
             "name": "drupal/smtp",
             "version": "1.2.0",
             "source": {
@@ -6574,6 +6515,48 @@
                 }
             },
             "time": "2023-12-10T21:03:43+00:00"
+        },
+        {
+            "name": "nrel/ses_mailer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:NREL/nrel_ses_mailer.git",
+                "reference": "46632571e9d7b0191324f8af16ecf9311be9fade"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NREL/nrel_ses_mailer/zipball/46632571e9d7b0191324f8af16ecf9311be9fade",
+                "reference": "46632571e9d7b0191324f8af16ecf9311be9fade",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "aws/aws-sdk-php": "~3.0"
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a simple AWS SES mailer implementation.",
+            "support": {
+                "source": "https://github.com/NREL/nrel_ses_mailer/tree/main",
+                "issues": "https://github.com/NREL/nrel_ses_mailer/issues"
+            },
+            "transport-options": {
+                "ssl": {
+                    "verify_peer": false,
+                    "allow_self_signed": true
+                }
+            },
+            "time": "2024-02-12T23:23:50+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -11541,7 +11524,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/ses_mailer": 20
+        "nrel/ses_mailer": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
