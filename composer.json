@@ -63,6 +63,7 @@
         "drupal/password_policy": "^4.0",
         "drupal/pathauto": "^1.8",
         "drupal/recaptcha": "^3.0",
+        "drupal/reroute_email": "^2.2",
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
         "drupal/ses_mailer": "1.x-dev",
