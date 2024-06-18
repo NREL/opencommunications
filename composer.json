@@ -67,7 +67,7 @@
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
         "drupal/smtp": "^1.0",
-        "drupal/sophron": "^2.1",
+        "drupal/sophron": "^2.0",
         "drupal/stage_file_proxy": "^2.0",
         "drupal/username_enumeration_prevention": "^1.2",
         "drupal/video_embed_field": "^2.5",
