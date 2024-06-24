@@ -72,7 +72,7 @@
         "drupal/username_enumeration_prevention": "^1.2",
         "drupal/video_embed_field": "^2.5",
         "drupal/webform": "^6.2",
-        "drush/drush": "^12.4.3",
+        "drush/drush": "^13.0.0@beta",
         "fileeye/mimemap": "^2.0",
         "mglaman/composer-drupal-lenient": "^1.0",
         "nrel/nrel_cyber": "dev-main",
