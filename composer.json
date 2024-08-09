@@ -159,7 +159,7 @@
                 "https://www.drupal.org/project/advagg/issues/3310388: Fix error in CkEditor": "https://www.drupal.org/files/issues/2022-09-19/3310388-2.patch"
             },
             "drupal/password_policy": {
-                "https://www.drupal.org/project/password_policy/issues/3240363: Module to provide configurable mail body and subject content for reset and pending password emails.": "https://www.drupal.org/files/issues/2023-09-21/2023_09_21_3240363-40.patch",
+                "https://www.drupal.org/project/password_policy/issues/3240363: Module to provide configurable mail body and subject content for reset and pending password emails.": "https://www.drupal.org/files/issues/2024-08-02/3240363-50.patch",
                 "https://www.drupal.org/project/password_policy/issues/3378720: Existing entities should be updated with the show_policy_table key.": "https://www.drupal.org/files/issues/2024-05-14/password_policy-update-new-key-to-existing-configs-3378720-8.patch"
             },
             "drupal/ses_mailer": {
