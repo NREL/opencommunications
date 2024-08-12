@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6896e48ad1133dce34f731ace9851ad",
+    "content-hash": "0585d38cdcae38ea201d6c18cb85dc96",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2608,17 +2608,17 @@
         },
         {
             "name": "drupal/embed",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/embed.git",
-                "reference": "8.x-1.8"
+                "reference": "8.x-1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.8.zip",
-                "reference": "8.x-1.8",
-                "shasum": "c0612ae09b1eff8316726aac25c1b73853f57b14",
+                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "e6b4875e2b245ddf1a68a8615cbb4c5a378a0e9f",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -2627,13 +2627,16 @@
                 ]
             },
             "require": {
-                "drupal/core": "^10.2 || ^11"
+                "drupal/core": "^9.5 | ^10"
+            },
+            "require-dev": {
+                "drupal/ckeditor": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.8",
-                    "datestamp": "1723034389",
+                    "version": "8.x-1.9",
+                    "datestamp": "1723283819",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2650,7 +2653,7 @@
                     "homepage": "https://www.drupal.org/user/2828287"
                 },
                 {
-                    "name": "Dave Reid",
+                    "name": "dave reid",
                     "homepage": "https://www.drupal.org/user/53892"
                 },
                 {
@@ -2684,17 +2687,17 @@
         },
         {
             "name": "drupal/entity_browser",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/entity_browser.git",
-                "reference": "8.x-2.10"
+                "reference": "8.x-2.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-2.10.zip",
-                "reference": "8.x-2.10",
-                "shasum": "d52548ea66dc56108c2e211aeaff6e1cc0522e85",
+                "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-2.11.zip",
+                "reference": "8.x-2.11",
+                "shasum": "4ead3d3f9f6365fbc25cfbd0edcc5e0a9cc52e02",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -2703,7 +2706,7 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9.5 || ^10"
+                "drupal/core": "^10.2 || ^11"
             },
             "conflict": {
                 "drupal/media_entity": "1.*"
@@ -2716,13 +2719,14 @@
                 "drupal/entityqueue": "^1.0",
                 "drupal/inline_entity_form": "^1.0@rc",
                 "drupal/paragraphs": "^1.0",
+                "drupal/search_api": "^1.0",
                 "drupal/token": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.10",
-                    "datestamp": "1702325310",
+                    "version": "8.x-2.11",
+                    "datestamp": "1723378138",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3922,17 +3926,17 @@
         },
         {
             "name": "drupal/module_filter",
-            "version": "4.1.1",
+            "version": "5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/module_filter.git",
-                "reference": "4.1.1"
+                "reference": "5.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/module_filter-4.1.1.zip",
-                "reference": "4.1.1",
-                "shasum": "7a0e012d25d9af58efe589111333021d19dfe517",
+                "url": "https://ftp.drupal.org/files/projects/module_filter-5.0.3.zip",
+                "reference": "5.0.3",
+                "shasum": "d51cbdbaa67e1d31701dd0eca5a3e0d68aed018f",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -3941,14 +3945,14 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9 || ^10",
-                "drupal/jquery_ui_autocomplete": "^2.0"
+                "drupal/core": "^10 || ^11",
+                "drupal/jquery_ui_autocomplete": "^2.1"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.1.1",
-                    "datestamp": "1705957432",
+                    "version": "5.0.3",
+                    "datestamp": "1723152468",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4348,17 +4352,17 @@
         },
         {
             "name": "drupal/recaptcha_v3",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/recaptcha_v3.git",
-                "reference": "2.0.2"
+                "reference": "2.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/recaptcha_v3-2.0.2.zip",
-                "reference": "2.0.2",
-                "shasum": "239e04bdb74179997e422c13cd76cfaac68bdf00",
+                "url": "https://ftp.drupal.org/files/projects/recaptcha_v3-2.0.3.zip",
+                "reference": "2.0.3",
+                "shasum": "51bdbfd4602550fb4822ba8725e8899e23d4568a",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -4368,14 +4372,14 @@
             },
             "require": {
                 "drupal/captcha": "^2.0",
-                "drupal/core": "^9.5 || ^10",
+                "drupal/core": "^10 || ^11",
                 "google/recaptcha": "^1.3"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.2",
-                    "datestamp": "1692590086",
+                    "version": "2.0.3",
+                    "datestamp": "1723447296",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4800,17 +4804,17 @@
         },
         {
             "name": "drupal/stage_file_proxy",
-            "version": "2.1.5",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/stage_file_proxy.git",
-                "reference": "2.1.5"
+                "reference": "3.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/stage_file_proxy-2.1.5.zip",
-                "reference": "2.1.5",
-                "shasum": "6f5974c106d45211e54945e4d9f5bbf8ec6699de",
+                "url": "https://ftp.drupal.org/files/projects/stage_file_proxy-3.1.0.zip",
+                "reference": "3.1.0",
+                "shasum": "e2684977e612555fcd10ebeabfba0f63e4a2424d",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -4819,26 +4823,24 @@
                 ]
             },
             "require": {
-                "drupal/core": "^9 || ^10",
-                "php": ">=8"
+                "drupal/core": "^10.3 || ^11",
+                "php": ">=8.1"
+            },
+            "conflict": {
+                "drush/drush": "<12"
             },
             "require-dev": {
                 "drupal/coder": "^8.3",
-                "drush/drush": "^11 || ^12"
+                "drush/drush": ">=12"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.5",
-                    "datestamp": "1719499510",
+                    "version": "3.1.0",
+                    "datestamp": "1721592834",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "stage_file_proxy.drush.services.yml": "^11"
                     }
                 }
             },
@@ -11455,17 +11457,17 @@
         },
         {
             "name": "drupal/devel",
-            "version": "5.2.1",
+            "version": "5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/devel.git",
-                "reference": "5.2.1"
+                "reference": "5.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/devel-5.2.1.zip",
-                "reference": "5.2.1",
-                "shasum": "793861751e01092fe8bc7c0cd47589ebea2bb8df",
+                "url": "https://ftp.drupal.org/files/projects/devel-5.3.1.zip",
+                "reference": "5.3.1",
+                "shasum": "6a5f13bdf93dc5f7f194b6af847589ae15e37b63",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -11475,16 +11477,19 @@
             },
             "require": {
                 "doctrine/common": "^2.7 || ^3.4",
-                "drupal/core": ">=10.0 <12.0.0-stable",
+                "drupal/core": "^10.3 || ^11 || ^12",
                 "php": ">=8.1",
-                "symfony/var-dumper": "^4 || ^5 || ^6"
+                "symfony/var-dumper": "^4 || ^5 || ^6 || ^7"
             },
             "conflict": {
+                "drupal/core": "<10.3",
                 "drush/drush": "<12.5.1",
                 "kint-php/kint": "<3"
             },
             "require-dev": {
-                "drush/drush": "^12.5.1"
+                "drush/drush": "^13",
+                "firephp/firephp-core": "^0.5.3",
+                "kint-php/kint": "^5.1"
             },
             "suggest": {
                 "kint-php/kint": "Kint provides an informative display of arrays/objects. Useful for debugging and developing."
@@ -11492,8 +11497,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "5.2.1",
-                    "datestamp": "1711328410",
+                    "version": "5.3.1",
+                    "datestamp": "1723258446",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
