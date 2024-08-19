@@ -41,9 +41,9 @@
         "drupal/blazy": "^2.1",
         "drupal/bootstrap_layouts": "^5.2",
         "drupal/composer_deploy": "^1.7",
-        "drupal/core-composer-scaffold": "10.2.0",
-        "drupal/core-project-message": "10.2.0",
-        "drupal/core-recommended": "10.2.0",
+        "drupal/core-composer-scaffold": "10.2.1",
+        "drupal/core-project-message": "10.2.1",
+        "drupal/core-recommended": "10.2.1",
         "drupal/ctools": "^4.0",
         "drupal/embed": "^1.4",
         "drupal/entity_browser": "^2.5",
@@ -156,7 +156,7 @@
         },
         "patches": {
             "drupal/password_policy": {
-                "https://www.drupal.org/project/password_policy/issues/3240363: Module to provide configurable mail body and subject content for reset and pending password emails.": "https://www.drupal.org/files/issues/2024-08-02/3240363-50.patch"
+                "https://www.drupal.org/project/password_policy/issues/3240363: Module to provide configurable mail body and subject content for reset and pending password emails.": "https://www.drupal.org/files/issues/2023-09-21/2023_09_21_3240363-40.patch"
             },
             "drupal/ses_mailer": {
                 "https://www.drupal.org/project/ses_mailer/issues/3385960: Drupal 10 compatibilitye": "https://www.drupal.org/files/issues/2023-09-07/ses-mailer-d10-compatibility-3385960-5.patch"
