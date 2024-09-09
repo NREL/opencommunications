@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0585d38cdcae38ea201d6c18cb85dc96",
+    "content-hash": "c40cafb351bfe652b43e646e1adf3a8e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -66,12 +66,6 @@
                 "issues": "https://github.com/asm89/stack-cors/issues",
                 "source": "https://github.com/asm89/stack-cors/tree/v2.2.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-11-14T13:51:46+00:00"
         },
         {
@@ -131,12 +125,6 @@
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
                 "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.6"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-06-13T17:21:28+00:00"
         },
@@ -242,12 +230,6 @@
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
                 "source": "https://github.com/aws/aws-sdk-php/tree/3.319.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-08-09T18:32:29+00:00"
         },
         {
@@ -313,12 +295,6 @@
             "support": {
                 "issues": "https://github.com/Chi-teck/drupal-code-generator/issues",
                 "source": "https://github.com/Chi-teck/drupal-code-generator/tree/3.6.1"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-06-06T17:36:37+00:00"
         },
@@ -477,12 +453,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-09-13T08:19:44+00:00"
         },
         {
@@ -570,12 +540,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-12T11:35:52+00:00"
         },
         {
@@ -637,12 +601,6 @@
             "support": {
                 "issues": "https://github.com/consolidation/annotated-command/issues",
                 "source": "https://github.com/consolidation/annotated-command/tree/4.10.0"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-04-05T21:05:39+00:00"
         },
@@ -710,12 +668,6 @@
                 "issues": "https://github.com/consolidation/config/issues",
                 "source": "https://github.com/consolidation/config/tree/2.1.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2022-10-06T17:48:03+00:00"
         },
         {
@@ -771,12 +723,6 @@
             "description": "This project uses dflydev/dot-access-data to provide simple output filtering for applications built with annotated-command / Robo.",
             "support": {
                 "source": "https://github.com/consolidation/filter-via-dot-access-data/tree/2.0.2"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2021-12-30T03:56:08+00:00"
         },
@@ -835,12 +781,6 @@
             "support": {
                 "issues": "https://github.com/consolidation/log/issues",
                 "source": "https://github.com/consolidation/log/tree/3.1.0"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-04-04T23:50:25+00:00"
         },
@@ -901,12 +841,6 @@
             "support": {
                 "issues": "https://github.com/consolidation/output-formatters/issues",
                 "source": "https://github.com/consolidation/output-formatters/tree/4.5.0"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-04-02T15:18:52+00:00"
         },
@@ -987,12 +921,6 @@
                 "issues": "https://github.com/consolidation/robo/issues",
                 "source": "https://github.com/consolidation/robo/tree/4.0.6"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-04-30T21:49:04+00:00"
         },
         {
@@ -1053,12 +981,6 @@
             "support": {
                 "issues": "https://github.com/consolidation/self-update/issues",
                 "source": "https://github.com/consolidation/self-update/tree/2.2.0"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2023-03-18T01:37:41+00:00"
         },
@@ -1125,12 +1047,6 @@
                 "issues": "https://github.com/consolidation/site-alias/issues",
                 "source": "https://github.com/consolidation/site-alias/tree/4.1.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-05T15:58:04+00:00"
         },
         {
@@ -1194,12 +1110,6 @@
                 "issues": "https://github.com/consolidation/site-process/issues",
                 "source": "https://github.com/consolidation/site-process/tree/5.4.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-06T00:00:28+00:00"
         },
         {
@@ -1253,12 +1163,6 @@
             "support": {
                 "issues": "https://github.com/cweagans/composer-patches/issues",
                 "source": "https://github.com/cweagans/composer-patches/tree/1.7.3"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2022-12-20T22:53:13+00:00"
         },
@@ -1340,12 +1244,6 @@
             "support": {
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-07-08T12:26:09+00:00"
         },
@@ -1429,12 +1327,6 @@
                 "issues": "https://github.com/doctrine/annotations/issues",
                 "source": "https://github.com/doctrine/annotations/tree/1.14.3"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-02-01T09:20:38+00:00"
         },
         {
@@ -1487,12 +1379,6 @@
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
                 "source": "https://github.com/doctrine/deprecations/tree/1.1.3"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-01-30T19:34:25+00:00"
         },
@@ -1578,12 +1464,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-02-05T11:35:39+00:00"
         },
         {
@@ -1634,12 +1514,6 @@
             "support": {
                 "issues": "https://github.com/dompdf/php-font-lib/issues",
                 "source": "https://github.com/dompdf/php-font-lib/tree/1.0.0"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-04-29T13:40:38+00:00"
         },
@@ -1732,12 +1606,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -1811,12 +1679,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/blazy",
                 "issues": "https://drupal.org/project/issues/blazy"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -1875,12 +1737,6 @@
             "homepage": "https://www.drupal.org/project/bootstrap_layouts",
             "support": {
                 "source": "https://git.drupalcode.org/project/bootstrap_layouts"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -1967,12 +1823,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/captcha",
                 "issues": "https://www.drupal.org/project/issues/captcha"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -2036,12 +1886,6 @@
             "homepage": "https://www.drupal.org/project/composer_deploy",
             "support": {
                 "source": "https://git.drupalcode.org/project/composer_deploy"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -2212,12 +2056,6 @@
             "support": {
                 "source": "https://github.com/drupal/core/tree/10.3.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-08-08T09:23:57+00:00"
         },
         {
@@ -2274,12 +2112,6 @@
             "support": {
                 "source": "https://github.com/drupal/core-composer-scaffold/tree/10.3.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-05-11T08:21:39+00:00"
         },
         {
@@ -2326,12 +2158,6 @@
             ],
             "support": {
                 "source": "https://github.com/drupal/core-project-message/tree/11.0.1"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2023-07-24T07:55:25+00:00"
         },
@@ -2424,12 +2250,6 @@
             "support": {
                 "source": "https://github.com/drupal/core-recommended/tree/10.3.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-08-08T09:23:57+00:00"
         },
         {
@@ -2493,12 +2313,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/crop",
                 "issues": "https://www.drupal.org/project/issues/crop"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -2598,12 +2412,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -2677,12 +2485,6 @@
             "homepage": "https://www.drupal.org/project/embed",
             "support": {
                 "source": "https://git.drupalcode.org/project/embed"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -2784,12 +2586,6 @@
                 "source": "https://git.drupalcode.org/project/entity_browser",
                 "issues": "https://www.drupal.org/project/issues/entity_browser",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -2873,12 +2669,6 @@
             "homepage": "https://www.drupal.org/project/entity_embed",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_embed"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -2949,12 +2739,6 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3029,12 +2813,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/field_group",
                 "issues": "https://www.drupal.org/project/issues/field_group"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3091,12 +2869,6 @@
             "homepage": "https://www.drupal.org/project/file_mdm",
             "support": {
                 "source": "https://git.drupalcode.org/project/file_mdm"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3175,12 +2947,6 @@
             "homepage": "https://www.drupal.org/project/google_tag",
             "support": {
                 "source": "https://git.drupalcode.org/project/google_tag"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3237,12 +3003,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/health_check",
                 "issues": "https://www.drupal.org/project/issues/health_check"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3318,12 +3078,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/honeypot",
                 "issues": "https://www.drupal.org/project/issues/honeypot"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3406,12 +3160,6 @@
                 "source": "https://www.drupal.org/project/image_widget_crop",
                 "issues": "https://www.drupal.org/project/issues/image_widget_crop",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3504,12 +3252,6 @@
             "homepage": "https://www.drupal.org/project/imagemagick",
             "support": {
                 "source": "https://git.drupalcode.org/project/imagemagick"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3612,12 +3354,6 @@
             "homepage": "https://www.drupal.org/project/jquery_ui",
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3690,12 +3426,6 @@
             "homepage": "https://www.drupal.org/project/jquery_ui_autocomplete",
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui_autocomplete"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3767,12 +3497,6 @@
             "homepage": "https://www.drupal.org/project/jquery_ui_menu",
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui_menu"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3837,12 +3561,6 @@
                 "source": "https://git.drupalcode.org/project/log_stdout",
                 "issues": "https://www.drupal.org/project/issues/log_stdout",
                 "irc": "irc://irc.freenode.org/drupal-support"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3916,12 +3634,6 @@
                 "source": "https://git.drupalcode.org/project/metatag",
                 "issues": "https://www.drupal.org/project/issues/metatag",
                 "docs": "https://www.drupal.org/docs/8/modules/metatag"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -3982,12 +3694,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/module_filter",
                 "issues": "https://www.drupal.org/project/issues/module_filter"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4075,27 +3781,21 @@
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
                 "source": "https://git.drupalcode.org/project/paragraphs"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
             "name": "drupal/password_policy",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/password_policy.git",
-                "reference": "4.0.2"
+                "reference": "4.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/password_policy-4.0.2.zip",
-                "reference": "4.0.2",
-                "shasum": "28159e43602ff42871c8fdd71afb63cb5890bef7",
+                "url": "https://ftp.drupal.org/files/projects/password_policy-4.0.3.zip",
+                "reference": "4.0.3",
+                "shasum": "f583ede0ebd749459538d02dd527028d57a4e1ac",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -4109,8 +3809,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.0.2",
-                    "datestamp": "1722537412",
+                    "version": "4.0.3",
+                    "datestamp": "1723552706",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4160,12 +3860,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/password_policy",
                 "issues": "https://www.drupal.org/project/issues/password_policy"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4243,12 +3937,6 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4342,12 +4030,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/recaptcha.git",
                 "issues": "https://www.drupal.org/project/issues/recaptcha"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4408,12 +4090,6 @@
             "homepage": "https://www.drupal.org/project/recaptcha_v3",
             "support": {
                 "source": "https://git.drupalcode.org/project/recaptcha_v3"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4492,12 +4168,6 @@
             "homepage": "https://www.drupal.org/project/reroute_email",
             "support": {
                 "source": "https://git.drupalcode.org/project/reroute_email"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4565,12 +4235,6 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/seckit",
                 "issues": "http://drupal.org/project/issues/seckit"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4644,12 +4308,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/security_review",
                 "issues": "https://www.drupal.org/project/issues/security_review"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4732,12 +4390,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/smtp",
                 "issues": "https://www.drupal.org/project/issues/smtp"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4794,12 +4446,6 @@
             "homepage": "https://www.drupal.org/project/sophron",
             "support": {
                 "source": "https://git.drupalcode.org/project/sophron"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4901,12 +4547,6 @@
             "homepage": "https://www.drupal.org/project/stage_file_proxy",
             "support": {
                 "source": "https://git.drupalcode.org/project/stage_file_proxy"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -4985,27 +4625,21 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
             "name": "drupal/username_enumeration_prevention",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/username_enumeration_prevention.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/username_enumeration_prevention-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "fa3f1f57a9d5ad77943c484ff7e1e40f5cd73df7",
+                "url": "https://ftp.drupal.org/files/projects/username_enumeration_prevention-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "29fab36a86de64694b3074d42ac948547459aea6",
                 "mirrors": [
                     {
                         "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
@@ -5014,13 +4648,13 @@
                 ]
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10"
+                "drupal/core": "^9.5 || ^10 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1670892402",
+                    "version": "8.x-1.4",
+                    "datestamp": "1725566327",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5033,6 +4667,10 @@
             ],
             "authors": [
                 {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
                     "name": "nicksanta",
                     "homepage": "https://www.drupal.org/user/87915"
                 }
@@ -5041,12 +4679,6 @@
             "homepage": "https://www.drupal.org/project/username_enumeration_prevention",
             "support": {
                 "source": "https://git.drupalcode.org/project/username_enumeration_prevention"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -5114,12 +4746,6 @@
             "homepage": "https://www.drupal.org/project/video_embed_field",
             "support": {
                 "source": "https://git.drupalcode.org/project/video_embed_field"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -5238,12 +4864,6 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -5394,12 +5014,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-08-02T11:57:29+00:00"
         },
         {
@@ -5473,12 +5087,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-10-06T06:47:41+00:00"
         },
         {
@@ -5542,12 +5150,6 @@
             "support": {
                 "issues": "https://github.com/FileEye/MimeMap/issues",
                 "source": "https://github.com/FileEye/MimeMap/tree/2.1.2"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-06-29T16:52:07+00:00"
         },
@@ -5618,12 +5220,6 @@
                 "issues": "https://github.com/FileEye/pel/issues",
                 "source": "https://github.com/FileEye/pel/tree/0.10.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-11T19:11:58+00:00"
         },
         {
@@ -5682,12 +5278,6 @@
                 "issues": "https://github.com/google/recaptcha/issues",
                 "source": "https://github.com/google/recaptcha"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-02-18T17:41:46+00:00"
         },
         {
@@ -5745,12 +5335,6 @@
             "support": {
                 "issues": "https://github.com/grasmash/expander/issues",
                 "source": "https://github.com/grasmash/expander/tree/3.0.0"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2022-05-10T13:14:49+00:00"
         },
@@ -5813,12 +5397,6 @@
             "support": {
                 "issues": "https://github.com/grasmash/yaml-cli/issues",
                 "source": "https://github.com/grasmash/yaml-cli/tree/3.2.1"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-04-23T02:10:57+00:00"
         },
@@ -5952,12 +5530,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-18T11:12:18+00:00"
         },
         {
@@ -6047,12 +5619,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-18T10:29:17+00:00"
         },
         {
@@ -6175,12 +5741,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-18T09:59:12+00:00"
         },
         {
@@ -6269,12 +5829,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-03-13T13:12:53+00:00"
         },
         {
@@ -6348,12 +5902,6 @@
                 "issues": "https://github.com/Masterminds/html5-php/issues",
                 "source": "https://github.com/Masterminds/html5-php/tree/2.9.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-03-31T07:05:07+00:00"
         },
         {
@@ -6408,12 +5956,6 @@
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
                 "source": "https://github.com/mck89/peast/tree/v1.16.3"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-07-23T14:00:32+00:00"
         },
@@ -6479,12 +6021,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-12-07T17:56:20+00:00"
         },
         {
@@ -6557,12 +6093,6 @@
                 "issues": "https://github.com/jmespath/jmespath.php/issues",
                 "source": "https://github.com/jmespath/jmespath.php/tree/2.7.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-25T10:54:48+00:00"
         },
         {
@@ -6627,12 +6157,6 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.1.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-01T20:03:41+00:00"
         },
         {
@@ -6679,12 +6203,6 @@
                 "issues": "https://github.com/NREL/nrel_cyber/issues",
                 "source": "https://github.com/NREL/nrel_cyber/tree/main"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-11-06T22:48:24+00:00"
         },
         {
@@ -6720,12 +6238,6 @@
             "support": {
                 "source": "https://github.com/NREL/nrel_ses_mailer/tree/main",
                 "issues": "https://github.com/NREL/nrel_ses_mailer/issues"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-02-12T23:23:50+00:00"
         },
@@ -6803,12 +6315,6 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Archive_Tar",
                 "source": "https://github.com/pear/Archive_Tar"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-03-16T16:21:40+00:00"
         },
         {
@@ -6862,12 +6368,6 @@
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2019-11-20T18:27:48+00:00"
         },
         {
@@ -6922,12 +6422,6 @@
             "support": {
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-03-16T18:41:45+00:00"
         },
@@ -6990,12 +6484,6 @@
             "keywords": [
                 "exception"
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-03-21T15:43:46+00:00"
         },
         {
@@ -7057,12 +6545,6 @@
                 "issues": "https://github.com/phootwork/phootwork/issues",
                 "source": "https://github.com/phootwork/collection/tree/v3.2.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2022-08-27T12:51:24+00:00"
         },
         {
@@ -7117,12 +6599,6 @@
             "support": {
                 "issues": "https://github.com/phootwork/phootwork/issues",
                 "source": "https://github.com/phootwork/lang/tree/v3.2.2"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2023-05-26T05:37:59+00:00"
         },
@@ -7211,12 +6687,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-11-25T22:23:28+00:00"
         },
         {
@@ -7275,12 +6745,6 @@
                 "issues": "https://github.com/phpowermove/docblock/issues",
                 "source": "https://github.com/phpowermove/docblock/tree/v4.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-09-22T16:57:06+00:00"
         },
         {
@@ -7333,12 +6797,6 @@
                 "psr",
                 "psr-6"
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-02-03T23:26:27+00:00"
         },
         {
@@ -7398,12 +6856,6 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-11-05T16:47:00+00:00"
         },
         {
@@ -7456,12 +6908,6 @@
                 "psr",
                 "psr-14"
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2019-01-08T18:20:26+00:00"
         },
         {
@@ -7519,12 +6965,6 @@
             ],
             "support": {
                 "source": "https://github.com/php-fig/http-client"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2023-09-23T14:17:50+00:00"
         },
@@ -7587,12 +7027,6 @@
             "support": {
                 "source": "https://github.com/php-fig/http-factory"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-15T12:06:14+00:00"
         },
         {
@@ -7652,12 +7086,6 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/2.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-04-04T09:54:51+00:00"
         },
         {
@@ -7713,12 +7141,6 @@
             ],
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.0"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2021-07-14T16:46:02+00:00"
         },
@@ -7805,12 +7227,6 @@
                 "issues": "https://github.com/bobthecow/psysh/issues",
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.4"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-10T01:18:23+00:00"
         },
         {
@@ -7857,12 +7273,6 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -7935,12 +7345,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-03-02T06:30:58+00:00"
         },
         {
@@ -8041,12 +7445,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -8134,12 +7532,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T07:32:07+00:00"
         },
         {
@@ -8213,12 +7605,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-18T09:32:20+00:00"
         },
         {
@@ -8300,12 +7686,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -8392,12 +7772,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-05-31T14:49:08+00:00"
         },
         {
@@ -8480,12 +7854,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-18T09:32:20+00:00"
         },
         {
@@ -8558,12 +7926,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-28T09:49:33+00:00"
         },
         {
@@ -8634,12 +7996,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-24T07:06:38+00:00"
         },
         {
@@ -8723,12 +8079,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T12:36:27+00:00"
         },
         {
@@ -8849,12 +8199,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T14:52:04+00:00"
         },
         {
@@ -8941,12 +8285,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-28T07:59:05+00:00"
         },
         {
@@ -9038,12 +8376,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-28T09:49:33+00:00"
         },
         {
@@ -9129,12 +8461,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -9221,12 +8547,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -9311,12 +8631,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -9407,12 +8721,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -9500,12 +8808,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -9592,12 +8894,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -9677,12 +8973,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-19T12:30:46+00:00"
         },
         {
@@ -9769,12 +9059,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-05-31T15:07:36+00:00"
         },
         {
@@ -9857,12 +9141,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-19T12:30:46+00:00"
         },
         {
@@ -9946,12 +9224,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -10019,12 +9291,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-05-31T14:49:08+00:00"
         },
         {
@@ -10114,12 +9380,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-15T09:36:38+00:00"
         },
         {
@@ -10209,12 +9469,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-15T09:26:24+00:00"
         },
         {
@@ -10319,12 +9573,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T13:13:26+00:00"
         },
         {
@@ -10414,12 +9662,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-18T09:32:20+00:00"
         },
         {
@@ -10512,12 +9754,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-22T10:21:14+00:00"
         },
         {
@@ -10602,12 +9838,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-18T09:32:20+00:00"
         },
         {
@@ -10711,12 +9941,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -10808,12 +10032,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-07-26T12:30:32+00:00"
         },
         {
@@ -10897,12 +10115,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-24T15:53:56+00:00"
         },
         {
@@ -10981,12 +10193,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-05-31T14:49:08+00:00"
         },
         {
@@ -11072,12 +10278,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-05-16T10:04:27+00:00"
         },
         {
@@ -11129,12 +10329,6 @@
             "support": {
                 "issues": "https://github.com/webflo/drupal-finder/issues",
                 "source": "https://github.com/webflo/drupal-finder/tree/1.3.1"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2024-06-28T13:45:36+00:00"
         }
@@ -11235,12 +10429,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-04-16T13:35:33+00:00"
         },
         {
@@ -11338,12 +10526,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-05-22T20:47:39+00:00"
         },
         {
@@ -11447,12 +10629,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2024-06-20T10:14:30+00:00"
         },
         {
@@ -11521,12 +10697,6 @@
                 "source": "https://gitlab.com/drupalspoons/devel",
                 "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
                 "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             }
         },
         {
@@ -11603,12 +10773,6 @@
                 "kint",
                 "php"
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2019-10-17T18:05:24+00:00"
         }
     ],
