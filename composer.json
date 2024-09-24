@@ -166,7 +166,6 @@
                 "https://www.drupal.org/project/ses_mailer/issues/3385960: Drupal 10 compatibilitye": "https://www.drupal.org/files/issues/2023-09-07/ses-mailer-d10-compatibility-3385960-5.patch"
             },
             "drupal/webform": {
-                "https://www.drupal.org/project/webform/issues/3380639: The select an element interface has duplicate icons": "https://www.drupal.org/files/issues/2023-08-11/the-select-an-element-interface-has-duplicate-icons-3380639-4.patch",
                 "https://www.drupal.org/project/webform/issues/3382545: allowtransparency and frameborder are obsolete": "https://www.drupal.org/files/issues/2023-08-22/3382545-remove-obsolete-attributes.patch"
             }
         },
