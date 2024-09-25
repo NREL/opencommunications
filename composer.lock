@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7549fef43e904b18fc9cacfc98a877a0",
+    "content-hash": "0ea195219f654bf83a51bdd6f98db7bc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -21,7 +21,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -46,7 +46,7 @@
                     "Asm89\\Stack\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -89,7 +89,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -110,7 +110,7 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -142,20 +142,20 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.322.4",
+            "version": "3.322.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f6d2c64cb87d9e70ad99aeaffcd879a412d2ccb5"
+                "reference": "968fe51da0854eac0e0aeac6ec8b86856c6bd83e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f6d2c64cb87d9e70ad99aeaffcd879a412d2ccb5",
-                "reference": "f6d2c64cb87d9e70ad99aeaffcd879a412d2ccb5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/968fe51da0854eac0e0aeac6ec8b86856c6bd83e",
+                "reference": "968fe51da0854eac0e0aeac6ec8b86856c6bd83e",
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -215,7 +215,7 @@
                     "src/data/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -240,7 +240,7 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.322.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.322.5"
             },
             "transport-options": {
                 "ssl": {
@@ -248,7 +248,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2024-09-24T18:10:10+00:00"
+            "time": "2024-09-25T18:14:27+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -265,7 +265,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -305,7 +305,7 @@
                     "DrupalCodeGenerator\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -337,7 +337,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -369,7 +369,7 @@
                     "Composer\\Installers\\": "src/Composer/Installers"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -500,7 +500,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -523,7 +523,7 @@
                     "Composer\\Semver\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -593,7 +593,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -623,7 +623,7 @@
                     "Consolidation\\AnnotatedCommand\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -661,7 +661,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -695,7 +695,7 @@
                     "Consolidation\\Config\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -733,7 +733,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -758,7 +758,7 @@
                     "Consolidation\\Filter\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -795,7 +795,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -821,7 +821,7 @@
                     "Consolidation\\Log\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -859,7 +859,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -887,7 +887,7 @@
                     "Consolidation\\OutputFormatters\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -925,7 +925,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -972,7 +972,7 @@
                     "Robo\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1010,7 +1010,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1035,7 +1035,7 @@
                     "SelfUpdate\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1077,7 +1077,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1106,7 +1106,7 @@
                     "Consolidation\\SiteAlias\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1148,7 +1148,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1175,7 +1175,7 @@
                     "Consolidation\\SiteProcess\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1217,7 +1217,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1239,7 +1239,7 @@
                     "cweagans\\Composer\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1277,7 +1277,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1303,7 +1303,7 @@
                     "Dflydev\\DotAccessData\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1364,7 +1364,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1392,7 +1392,7 @@
                     "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1452,7 +1452,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1478,7 +1478,7 @@
                     "Doctrine\\Deprecations\\": "lib/Doctrine/Deprecations"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1511,7 +1511,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1533,7 +1533,7 @@
                     "Doctrine\\Common\\Lexer\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1601,7 +1601,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1619,7 +1619,7 @@
                     "FontLib\\": "src/FontLib"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "LGPL-2.1-or-later"
             ],
@@ -1658,7 +1658,7 @@
                 "shasum": "099e8d4dc98e1d551b4f9cffdc39599eb8ad04e8",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1680,7 +1680,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -1755,7 +1755,7 @@
                 "shasum": "a68070e36e7471723a0e0ae18050f25a676079d6",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1777,7 +1777,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -1834,7 +1834,7 @@
                 "shasum": "d4c16870ee830804c54a0bc3c18a114cc2d63966",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1853,7 +1853,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -1899,7 +1899,7 @@
                 "shasum": "3553127b2779ce5c24ac5c7fb682b5089d681bb2",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1921,7 +1921,7 @@
                     "dev-8.x-1.x": "1.x-dev"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -1991,7 +1991,7 @@
                 "shasum": "545cb7d83c701fb68f4d95522f24d7270332ce8a",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2011,7 +2011,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -2060,7 +2060,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2205,7 +2205,7 @@
                     "lib/Drupal/Component/Datetime/Time.php"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2236,7 +2236,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2263,7 +2263,7 @@
                     "Drupal\\Composer\\Plugin\\Scaffold\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2298,7 +2298,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2316,7 +2316,7 @@
                     "Drupal\\Composer\\Plugin\\ProjectMessage\\": "."
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2351,7 +2351,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2417,7 +2417,7 @@
                 "webflo/drupal-core-strict": "*"
             },
             "type": "metapackage",
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2448,7 +2448,7 @@
                 "shasum": "be11fad0abf1d53544d35cb4ca6cedd8e91d2542",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2467,7 +2467,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2517,7 +2517,7 @@
                 "shasum": "69f5889cf557df9e55519390e6a95cfa31b67874",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2539,7 +2539,7 @@
                     "dev-8.x-3.x": "3.x-dev"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2622,7 +2622,7 @@
                 "shasum": "e6b4875e2b245ddf1a68a8615cbb4c5a378a0e9f",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2644,7 +2644,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2701,7 +2701,7 @@
                 "shasum": "4ead3d3f9f6365fbc25cfbd0edcc5e0a9cc52e02",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2734,7 +2734,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -2808,7 +2808,7 @@
                 "shasum": "9c65a87f4285dc47303783db2e3af5825164d1dc",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2832,7 +2832,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2897,7 +2897,7 @@
                 "shasum": "2a2ff8617c7ce01b56df1caaf0a563da04948e26",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2924,7 +2924,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2973,7 +2973,7 @@
                 "shasum": "427c0a65dc1936e69e60c120776056cfe5b43e86",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2995,7 +2995,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3053,7 +3053,7 @@
                 "shasum": "fa7709137705a693c4d5329035612473045a19d3",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3078,7 +3078,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3115,7 +3115,7 @@
                 "shasum": "c8f2895a81a7898ac909bdc693fcd25ffe6f62be",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3146,7 +3146,7 @@
                     "dev-main": "2.x-dev"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3199,7 +3199,7 @@
                 "shasum": "7c72666fa1c0c688f7f27f5cad2a0e29a934d5d0",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3219,7 +3219,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3261,7 +3261,7 @@
                 "shasum": "56397c3779ebac1526cce9ecd39385017ee9a837",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3283,7 +3283,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3342,7 +3342,7 @@
                 "shasum": "6fcf4641d730bf1f5afce2a95d58f76094c72d1b",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3369,7 +3369,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3430,7 +3430,7 @@
                 "shasum": "2698db0ccc4a76d44ebbbfcabe9e70d25ae3db9b",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3451,7 +3451,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3528,7 +3528,7 @@
                 "shasum": "3f893843ec30fed18fa1b0cb326e51880b0cb686",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3547,7 +3547,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3636,7 +3636,7 @@
                 "shasum": "ecf9500d8bff6c3673e92019a09dcce87ac81fc6",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3657,7 +3657,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3714,7 +3714,7 @@
                 "shasum": "9aa6958e52ea12c1cdedd7908c5aeb5309b8b4ea",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3734,7 +3734,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3791,7 +3791,7 @@
                 "shasum": "2adb5d992618ee0a26bb8ca2cf80137654d9e0eb",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3810,7 +3810,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -3861,7 +3861,7 @@
                 "shasum": "afa4a37422748baa2f0c35b13961438668ef3be8",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3892,7 +3892,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -3940,7 +3940,7 @@
                 "shasum": "d51cbdbaa67e1d31701dd0eca5a3e0d68aed018f",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -3960,7 +3960,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4006,7 +4006,7 @@
                 "shasum": "594e2937ea5c95fc88b60420590c4d83f5cd71ee",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4042,7 +4042,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4099,7 +4099,7 @@
                 "shasum": "f583ede0ebd749459538d02dd527028d57a4e1ac",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4118,7 +4118,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4184,7 +4184,7 @@
                 "shasum": "e64b5a82cf1b8ab48bce400b21ae6fc99c8078fd",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4216,7 +4216,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4267,7 +4267,7 @@
                 "shasum": "95fa7ac5dd064ea6a1c14fc4881778bf68200598",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4288,7 +4288,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4366,7 +4366,7 @@
                 "shasum": "51bdbfd4602550fb4822ba8725e8899e23d4568a",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4387,7 +4387,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4432,7 +4432,7 @@
                 "shasum": "4dd10cf981fb184cf075399a52dd24cfb2c2605e",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4444,14 +4444,14 @@
             "extra": {
                 "drupal": {
                     "version": "2.2.1",
-                    "datestamp": "1696186591",
+                    "datestamp": "1696270478",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4516,7 +4516,7 @@
                 "shasum": "34d38f2daaf99781ef6b7e7fbe2eeabc73a7ca16",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4535,7 +4535,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4589,7 +4589,7 @@
                 "shasum": "6b4c2db45dcc75cd7aa2deb29f9c1eab8913f0bc",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4609,7 +4609,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4668,7 +4668,7 @@
                 "shasum": "963b4670dc609f30a8c003d888d88893d0841b21",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4694,7 +4694,7 @@
                     "dev-8.x-1.x": "1.x-dev"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4756,7 +4756,7 @@
                 "shasum": "0742562897ae9b202e472a1edef75844b6452e39",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4781,7 +4781,7 @@
                     "Drupal\\sophron\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -4818,7 +4818,7 @@
                 "shasum": "1aba8488efc193db71a991e8f8f76825af219079",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4845,7 +4845,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "scripts": {
                 "phpcs": [
                     "vendor/bin/phpcs -p ."
@@ -4925,7 +4925,7 @@
                 "shasum": "5916fbccc86458a5f51e71f832ac70ff4c84ebdf",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -4952,7 +4952,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -5009,7 +5009,7 @@
                 "shasum": "29fab36a86de64694b3074d42ac948547459aea6",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5028,7 +5028,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -5069,7 +5069,7 @@
                 "shasum": "997ed67b6873e822fe628f87f65bd6da67e7350c",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5093,7 +5093,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -5142,7 +5142,7 @@
                 "shasum": "7e0520773f2521d70837371b08e09a13704b4274",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5208,7 +5208,7 @@
                     }
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -5266,7 +5266,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5346,7 +5346,7 @@
                     "Drush\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -5422,7 +5422,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5450,7 +5450,7 @@
                     "Egulias\\EmailValidator\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5501,7 +5501,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5532,7 +5532,7 @@
                     "FileEye\\MimeMap\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "LGPL-3.0-or-later"
             ],
@@ -5571,7 +5571,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5595,7 +5595,7 @@
                     "lsolesen\\pel\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -5646,7 +5646,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5670,7 +5670,7 @@
                     "ReCaptcha\\": "src/ReCaptcha"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -5710,7 +5710,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5737,7 +5737,7 @@
                     "Grasmash\\Expander\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5774,7 +5774,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5805,7 +5805,7 @@
                     "Grasmash\\YamlCli\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5842,7 +5842,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -5886,7 +5886,7 @@
                     "GuzzleHttp\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5980,7 +5980,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6004,7 +6004,7 @@
                     "GuzzleHttp\\Promise\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6075,7 +6075,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6110,7 +6110,7 @@
                     "GuzzleHttp\\Psr7\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6203,7 +6203,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6242,7 +6242,7 @@
                     "League\\Container\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6297,7 +6297,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6320,7 +6320,7 @@
                     "Masterminds\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6376,7 +6376,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6399,7 +6399,7 @@
                     "Peast\\": "lib/Peast/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -6437,7 +6437,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6464,7 +6464,7 @@
                     "ComposerDrupalLenient\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -6507,7 +6507,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6537,7 +6537,7 @@
                     "JmesPath\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6585,7 +6585,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6614,7 +6614,7 @@
                     "PhpParser\\": "lib/PhpParser"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -6655,14 +6655,14 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
             },
             "default-branch": true,
             "type": "drupal-module",
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -6707,7 +6707,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6717,15 +6717,11 @@
             },
             "default-branch": true,
             "type": "drupal-module",
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
             "description": "Provides a simple AWS SES mailer implementation.",
-            "support": {
-                "source": "https://github.com/NREL/nrel_ses_mailer/tree/main",
-                "issues": "https://github.com/NREL/nrel_ses_mailer/issues"
-            },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,
@@ -6749,7 +6745,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6777,7 +6773,7 @@
                     "Archive_Tar": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "include-path": [
                 "./"
             ],
@@ -6831,7 +6827,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6842,7 +6838,7 @@
                     "Console": "./"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "include-path": [
                 "./"
             ],
@@ -6867,6 +6863,10 @@
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Console_Getopt",
+                "source": "https://github.com/pear/Console_Getopt"
+            },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,
@@ -6890,7 +6890,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6909,7 +6909,7 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "include-path": [
                 "src/"
             ],
@@ -6951,7 +6951,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -6973,7 +6973,7 @@
                     "PEAR/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "include-path": [
                 "."
             ],
@@ -6995,6 +6995,10 @@
             "keywords": [
                 "exception"
             ],
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR_Exception",
+                "source": "https://github.com/pear/PEAR_Exception"
+            },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,
@@ -7018,7 +7022,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7033,7 +7037,7 @@
                     "phootwork\\collection\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7085,7 +7089,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7101,7 +7105,7 @@
                     "phootwork\\lang\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7146,7 +7150,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7184,7 +7188,7 @@
                     "PHPMailer\\PHPMailer\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "LGPL-2.1-only"
             ],
@@ -7239,7 +7243,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7260,7 +7264,7 @@
                     "phpowermove\\docblock\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7303,7 +7307,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7322,7 +7326,7 @@
                     "Psr\\Cache\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7338,6 +7342,9 @@
                 "psr",
                 "psr-6"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/cache/tree/3.0.0"
+            },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,
@@ -7361,7 +7368,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7380,7 +7387,7 @@
                     "Psr\\Container\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7426,7 +7433,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7445,7 +7452,7 @@
                     "Psr\\EventDispatcher\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7461,6 +7468,10 @@
                 "psr",
                 "psr-14"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,
@@ -7484,7 +7495,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7504,7 +7515,7 @@
                     "Psr\\Http\\Client\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7548,7 +7559,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7568,7 +7579,7 @@
                     "Psr\\Http\\Message\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7615,7 +7626,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7634,7 +7645,7 @@
                     "Psr\\Http\\Message\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7680,7 +7691,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7699,7 +7710,7 @@
                     "Psr\\Log\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7742,7 +7753,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7787,7 +7798,7 @@
                     "Psy\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7833,7 +7844,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7851,7 +7862,7 @@
                     "src/getallheaders.php"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7862,6 +7873,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,
@@ -7885,7 +7900,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -7908,7 +7923,7 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -7963,7 +7978,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8007,7 +8022,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8069,7 +8084,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8106,7 +8121,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8162,7 +8177,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8185,7 +8200,7 @@
                     "function.php"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8241,7 +8256,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8272,7 +8287,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8328,7 +8343,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8364,7 +8379,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8420,7 +8435,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8444,7 +8459,7 @@
                     "Symfony\\Contracts\\EventDispatcher\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8508,7 +8523,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8530,7 +8545,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8586,7 +8601,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8606,7 +8621,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8662,7 +8677,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8695,7 +8710,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8751,7 +8766,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8821,7 +8836,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8877,7 +8892,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -8913,7 +8928,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8969,7 +8984,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9006,7 +9021,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9066,7 +9081,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9095,7 +9110,7 @@
                     "Symfony\\Polyfill\\Ctype\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9157,7 +9172,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9186,7 +9201,7 @@
                     "Symfony\\Polyfill\\Iconv\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9249,7 +9264,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9275,7 +9290,7 @@
                     "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9339,7 +9354,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9367,7 +9382,7 @@
                     "Symfony\\Polyfill\\Intl\\Idn\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9435,7 +9450,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9464,7 +9479,7 @@
                     "Resources/stubs"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9528,7 +9543,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9557,7 +9572,7 @@
                     "Symfony\\Polyfill\\Mbstring\\": ""
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9620,7 +9635,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9635,7 +9650,7 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9697,7 +9712,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9723,7 +9738,7 @@
                     "Resources/stubs"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9789,7 +9804,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9815,7 +9830,7 @@
                     "Resources/stubs"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9877,7 +9892,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9904,7 +9919,7 @@
                     "Resources/stubs"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9966,7 +9981,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -9983,7 +9998,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10039,7 +10054,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10072,7 +10087,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10134,7 +10149,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10167,7 +10182,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10229,7 +10244,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10283,7 +10298,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10339,7 +10354,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10370,7 +10385,7 @@
                     "/Test/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10434,7 +10449,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10468,7 +10483,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10532,7 +10547,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10558,7 +10573,7 @@
                     "/Test/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10622,7 +10637,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10675,7 +10690,7 @@
                     "/Resources/bin/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10731,7 +10746,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10768,7 +10783,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10828,7 +10843,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10851,7 +10866,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -10917,7 +10932,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -10945,7 +10960,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -11001,7 +11016,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -11029,7 +11044,7 @@
                     "Twig\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -11092,7 +11107,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -11112,7 +11127,7 @@
                     "DrupalFinder\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -11152,7 +11167,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -11177,7 +11192,7 @@
                     "Doctrine\\Common\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -11255,7 +11270,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -11278,7 +11293,7 @@
                     "Doctrine\\Common\\": "src"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -11358,7 +11373,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -11387,7 +11402,7 @@
                     "Doctrine\\Persistence\\": "src/Persistence"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -11458,23 +11473,22 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/devel.git",
-                "reference": "5.3.1"
+                "reference": "c7ab577f8ee7578ab28a247c3c05d5f53d497902"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/devel-5.3.1.zip",
-                "reference": "5.3.1",
-                "shasum": "6a5f13bdf93dc5f7f194b6af847589ae15e37b63",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Fdevel/repository/archive.zip?sha=c7ab577f8ee7578ab28a247c3c05d5f53d497902",
+                "reference": "c7ab577f8ee7578ab28a247c3c05d5f53d497902",
+                "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
             },
             "require": {
                 "doctrine/common": "^2.7 || ^3.4",
-                "drupal/core": "^10.3 || ^11 || ^12",
                 "php": ">=8.1",
                 "symfony/var-dumper": "^4 || ^5 || ^6 || ^7"
             },
@@ -11492,39 +11506,23 @@
                 "kint-php/kint": "Kint provides an informative display of arrays/objects. Useful for debugging and developing."
             },
             "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "5.3.1",
-                    "datestamp": "1723258446",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "authors": [
-                {
-                    "name": "moshe weitzman",
-                    "homepage": "https://www.drupal.org/user/23"
-                }
-            ],
             "description": "Various blocks, pages, and functions for developers.",
-            "homepage": "https://www.drupal.org/project/devel",
             "support": {
-                "source": "https://gitlab.com/drupalspoons/devel",
                 "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
-                "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
+                "slack": "https://drupal.slack.com/archives/C012WAW1MH6",
+                "source": "https://gitlab.com/drupalspoons/devel"
             },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,
                     "allow_self_signed": true
                 }
-            }
+            },
+            "time": "2024-08-09T15:10:17+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -11541,7 +11539,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
+                        "url": "https://packagist-repo.nrel.gov/nrel/communications/dists/%package%/%version%/r%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -11575,7 +11573,7 @@
                     "Kint\\": "src/"
                 }
             },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
+            "notification-url": "https://packagist-repo.nrel.gov/nrel/communications/downloads/",
             "license": [
                 "MIT"
             ],
@@ -11600,6 +11598,10 @@
                 "kint",
                 "php"
             ],
+            "support": {
+                "issues": "https://github.com/kint-php/kint/issues",
+                "source": "https://github.com/kint-php/kint/tree/master"
+            },
             "transport-options": {
                 "ssl": {
                     "verify_peer": false,

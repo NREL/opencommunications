@@ -24,7 +24,7 @@
     "repositories": {
        "assets" : {
             "type": "composer",
-            "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
+            "url": "https://packagist-repo.nrel.gov/nrel/communications/",
             "options" : {
                 "ssl" : {
                     "verify_peer": false,
